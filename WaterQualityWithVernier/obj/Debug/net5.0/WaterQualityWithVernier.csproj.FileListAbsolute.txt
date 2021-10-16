@@ -1,0 +1,16 @@
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\WaterQualityWithVernier.exe
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\WaterQualityWithVernier.deps.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\WaterQualityWithVernier.runtimeconfig.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\WaterQualityWithVernier.runtimeconfig.dev.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\WaterQualityWithVernier.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\ref\WaterQualityWithVernier.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\WaterQualityWithVernier.pdb
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.csproj.AssemblyReference.cache
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.AssemblyInfoInputs.cache
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.AssemblyInfo.cs
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.csproj.CoreCompileInputs.cache
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\ref\WaterQualityWithVernier.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.pdb
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.genruntimeconfig.cache
