@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace WaterQualityWithVernier
 {
@@ -8,15 +12,17 @@ namespace WaterQualityWithVernier
         {
             //Console.WriteLine("Hello World");
             //Console.ReadLine();
+            Console.ForegroundColor = ConsoleColor.Green;
             MainMenu();
         }
 
         //Main Menu Section 
         static void MainMenu()
         {
+            
             Console.Clear();
             Console.WriteLine("");
-            Console.WriteLine("*********************** Welcome to Water Quality with Vernier V.1.0 *********************** ");
+            Console.WriteLine("*********************** Welcome to Pond Water Quality with Vernier V.1.0 ***********************");
             Console.WriteLine("");
             Console.WriteLine("Option 1. Temperature Experiment (Stainless Steel Temperature Probe Required)");
             Console.WriteLine("Option 2. pH Experiment (pH Sensor Required)");
@@ -66,10 +72,31 @@ namespace WaterQualityWithVernier
         static void TempExp()
         {
             Console.Clear();
-            Console.WriteLine("This is Temperature Experiment!");
+            Console.WriteLine("*********************** Temperature Experiment ***********************");
             Console.WriteLine("");
-            Console.WriteLine("Press ENTER to go back to the Main Menu");
+            Console.WriteLine("In this experiment you will collect temperature data on your pond water using Vernier temperature probe, Texas Instruments Graphing Calculator with attached CBL2 Calculator-Based Laboratory.");
+            Console.WriteLine("Outdoor water temperatures can range from 32 degrees Celsius to above 86 degrees Celsius in the summer. In general, cooler water in pond is generally considered healthier than warmer water.");
+            Console.WriteLine("Pond water temperature plays a vital role in the overal health of the eco-system and the health of pond fish. The perfect pond water should be in the range of 68 to 74 degrees Fahrenheit.");
+            Console.WriteLine("During summer, water loses much of its ability to hold oxygen when the temperature is above 85 degrees. In winter, when the temperature goes below 39 degrees Fahrenheit fish do not have to eat.");
+            Console.WriteLine("");
+            Console.WriteLine("This experiment will collect temperature data, store it in a database for later retreaval, and let you know if you should contine or stop feeding your fish based on last 7-day water temperature average.");
             Console.ReadLine();
+            Console.WriteLine("Please enter date of the experiment:");
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
 
         // pH Experiment Section
