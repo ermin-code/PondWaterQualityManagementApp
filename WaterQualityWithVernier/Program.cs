@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace WaterQualityWithVernier
 {
@@ -19,7 +20,7 @@ namespace WaterQualityWithVernier
         //Main Menu Section 
         static void MainMenu()
         {
-            
+
             Console.Clear();
             Console.WriteLine("");
             Console.WriteLine("*********************** Welcome to Pond Water Quality with Vernier V.1.0 ***********************");
@@ -37,12 +38,12 @@ namespace WaterQualityWithVernier
 
             string myoptions;
             myoptions = Console.ReadLine();
-                switch (myoptions)
-                    {
+            switch (myoptions)
+            {
                 case "1":
                     TempExp();
                     break;
-                
+
                 case "2":
                     pHExp();
                     break;
@@ -69,7 +70,7 @@ namespace WaterQualityWithVernier
         }
 
         //Temperature Experiment Section
-        static void TempExp()
+        public static void TempExp()
         {
             Console.Clear();
             Console.WriteLine("*********************** Temperature Experiment ***********************");
@@ -80,9 +81,12 @@ namespace WaterQualityWithVernier
             Console.WriteLine("During summer, water loses much of its ability to hold oxygen when the temperature is above 85 degrees. In winter, when the temperature goes below 39 degrees Fahrenheit fish do not have to eat.");
             Console.WriteLine("");
             Console.WriteLine("This experiment will collect temperature data, store it in a database for later retreaval, and let you know if you should contine or stop feeding your fish based on last 7-day water temperature average.");
+
+            Console.Write("Please enter the date of the experiment...");
+            string TExpDate = Console.ReadLine();
+            File.WriteAllText(@"D:/My Documents/Code Louisville/september2021/WaterQualityWithVernier/WaterQualityWithVernier/Saved Data/TExpData.txt", TExpDate);
+
             Console.ReadLine();
-            Console.WriteLine("Please enter date of the experiment:");
-            
 
 
 
