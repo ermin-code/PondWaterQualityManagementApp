@@ -7,10 +7,43 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "WaterQualityWithVernier/1.0.0": {
+        "dependencies": {
+          "CsvHelper": "27.1.1",
+          "LumenWorks.Framework.IO": "3.8.0",
+          "LumenWorksCsvReader": "4.0.0",
+          "LumenWorksCsvReader2": "4.1.2",
+          "LumenWorksX.Framework.IO": "1.0.1"
+        },
         "runtime": {
           "WaterQualityWithVernier.dll": {}
         }
-      }
+      },
+      "CsvHelper/27.1.1": {
+        "runtime": {
+          "lib/net5.0/CsvHelper.dll": {
+            "assemblyVersion": "27.0.0.0",
+            "fileVersion": "27.1.1.0"
+          }
+        }
+      },
+      "LumenWorks.Framework.IO/3.8.0": {},
+      "LumenWorksCsvReader/4.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/LumenWorks.Framework.IO.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "LumenWorksCsvReader2/4.1.2": {
+        "runtime": {
+          "lib/netcoreapp3.1/CsvReader.dll": {
+            "assemblyVersion": "4.1.2.0",
+            "fileVersion": "4.1.2.0"
+          }
+        }
+      },
+      "LumenWorksX.Framework.IO/1.0.1": {}
     }
   },
   "libraries": {
@@ -18,6 +51,41 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CsvHelper/27.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lo5yypClBORR2XiWPRxQApaA4C2R4GVCIPVRt9HfaLxLmVQtg/KZiOYsd4luLgyOxkUatF9R0QdFQYk7Y2l0cw==",
+      "path": "csvhelper/27.1.1",
+      "hashPath": "csvhelper.27.1.1.nupkg.sha512"
+    },
+    "LumenWorks.Framework.IO/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Br2Q9j/tf2uF3Ci4CajidD18tui9DOg2iIzH5Xjro35ra6r8HGMD12B+ZlJ8v9AN3YXl7iPu5YDGbBlXVcZpHw==",
+      "path": "lumenworks.framework.io/3.8.0",
+      "hashPath": "lumenworks.framework.io.3.8.0.nupkg.sha512"
+    },
+    "LumenWorksCsvReader/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CP6bPmDbmV5yT7YwfGxN8Agrdj0nB82b2UitfrnTghqyfF4DXD4UXl8MoCXBz4Ja17bUYqpEDd+qaavh7lwUxg==",
+      "path": "lumenworkscsvreader/4.0.0",
+      "hashPath": "lumenworkscsvreader.4.0.0.nupkg.sha512"
+    },
+    "LumenWorksCsvReader2/4.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0lLIxlwN3m1NolezlyEFtgzB0DlO058L0ZKOzE0x1ZTicLWy0y18DKQMNrsBbEHcy370SVGXsqe1oo4qHASjHw==",
+      "path": "lumenworkscsvreader2/4.1.2",
+      "hashPath": "lumenworkscsvreader2.4.1.2.nupkg.sha512"
+    },
+    "LumenWorksX.Framework.IO/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5g8QwYF3exOuEEiv7zFtJb53xNPOe1GLeTRRjxw56b00fMuR4qJKh3Kp+Gpk8SfkaJkqHbKOvCGgj3mF2ehC7Q==",
+      "path": "lumenworksx.framework.io/1.0.1",
+      "hashPath": "lumenworksx.framework.io.1.0.1.nupkg.sha512"
     }
   }
 }

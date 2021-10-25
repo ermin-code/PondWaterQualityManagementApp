@@ -1,8 +1,35 @@
 {
   "version": 2,
-  "dgSpecHash": "WQ0nPXbVsFphQx33DIB8B8eOWwtQxb6gDK+Q8WUkS7hTWJs3LBbcRo4BWA6qmJ6FCTBZ0/MHX714qJ/H9faBpQ==",
+  "dgSpecHash": "790+UpCoz07ZGfnjOCi9zaOZUdNVYW5WvTQAVUN2zp60P07IyHjdFP+P5BpUiImj11R0tbvqw8LQrfkrEVqnXg==",
   "success": true,
   "projectFilePath": "D:\\My Documents\\Code Louisville\\september2021\\WaterQualityWithVernier\\WaterQualityWithVernier\\WaterQualityWithVernier.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\Ermin - Business\\.nuget\\packages\\csvhelper\\27.1.1\\csvhelper.27.1.1.nupkg.sha512",
+    "C:\\Users\\Ermin - Business\\.nuget\\packages\\lumenworks.framework.io\\3.8.0\\lumenworks.framework.io.3.8.0.nupkg.sha512",
+    "C:\\Users\\Ermin - Business\\.nuget\\packages\\lumenworkscsvreader\\4.0.0\\lumenworkscsvreader.4.0.0.nupkg.sha512",
+    "C:\\Users\\Ermin - Business\\.nuget\\packages\\lumenworkscsvreader2\\4.1.2\\lumenworkscsvreader2.4.1.2.nupkg.sha512",
+    "C:\\Users\\Ermin - Business\\.nuget\\packages\\lumenworksx.framework.io\\1.0.1\\lumenworksx.framework.io.1.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LumenWorks.Framework.IO 3.8.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "LumenWorks.Framework.IO",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LumenWorksX.Framework.IO 1.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "LumenWorksX.Framework.IO",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

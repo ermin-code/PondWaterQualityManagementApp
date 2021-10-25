@@ -14,3 +14,6 @@ D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQuali
 D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\ref\WaterQualityWithVernier.dll
 D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.pdb
 D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.genruntimeconfig.cache
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\CsvHelper.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\LumenWorks.Framework.IO.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\CsvReader.dll

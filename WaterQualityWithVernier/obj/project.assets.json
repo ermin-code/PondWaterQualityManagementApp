@@ -1,11 +1,183 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "CsvHelper/27.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/CsvHelper.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/CsvHelper.dll": {}
+        }
+      },
+      "LumenWorks.Framework.IO/3.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/LumenWorks.Framework.IO.dll": {}
+        },
+        "runtime": {
+          "lib/net20/LumenWorks.Framework.IO.dll": {}
+        }
+      },
+      "LumenWorksCsvReader/4.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/LumenWorks.Framework.IO.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LumenWorks.Framework.IO.dll": {}
+        }
+      },
+      "LumenWorksCsvReader2/4.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/CsvReader.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/CsvReader.dll": {}
+        }
+      },
+      "LumenWorksX.Framework.IO/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net452/LumenWorks.Framework.IO.dll": {}
+        },
+        "runtime": {
+          "lib/net452/LumenWorks.Framework.IO.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CsvHelper/27.1.1": {
+      "sha512": "lo5yypClBORR2XiWPRxQApaA4C2R4GVCIPVRt9HfaLxLmVQtg/KZiOYsd4luLgyOxkUatF9R0QdFQYk7Y2l0cw==",
+      "type": "package",
+      "path": "csvhelper/27.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "csvhelper.27.1.1.nupkg.sha512",
+        "csvhelper.nuspec",
+        "lib/net45/CsvHelper.dll",
+        "lib/net45/CsvHelper.xml",
+        "lib/net47/CsvHelper.dll",
+        "lib/net47/CsvHelper.xml",
+        "lib/net5.0/CsvHelper.dll",
+        "lib/net5.0/CsvHelper.xml",
+        "lib/netstandard2.0/CsvHelper.dll",
+        "lib/netstandard2.0/CsvHelper.xml",
+        "lib/netstandard2.1/CsvHelper.dll",
+        "lib/netstandard2.1/CsvHelper.xml"
+      ]
+    },
+    "LumenWorks.Framework.IO/3.8.0": {
+      "sha512": "Br2Q9j/tf2uF3Ci4CajidD18tui9DOg2iIzH5Xjro35ra6r8HGMD12B+ZlJ8v9AN3YXl7iPu5YDGbBlXVcZpHw==",
+      "type": "package",
+      "path": "lumenworks.framework.io/3.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "COPYING.txt",
+        "lib/net20/LumenWorks.Framework.IO.dll",
+        "lib/net20/LumenWorks.Framework.IO.xml",
+        "lumenworks.framework.io.3.8.0.nupkg.sha512",
+        "lumenworks.framework.io.nuspec"
+      ]
+    },
+    "LumenWorksCsvReader/4.0.0": {
+      "sha512": "CP6bPmDbmV5yT7YwfGxN8Agrdj0nB82b2UitfrnTghqyfF4DXD4UXl8MoCXBz4Ja17bUYqpEDd+qaavh7lwUxg==",
+      "type": "package",
+      "path": "lumenworkscsvreader/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/LumenWorks.Framework.IO.dll",
+        "lib/net20/LumenWorks.Framework.IO.pdb",
+        "lib/net20/LumenWorks.Framework.IO.xml",
+        "lib/net35/LumenWorks.Framework.IO.dll",
+        "lib/net35/LumenWorks.Framework.IO.pdb",
+        "lib/net35/LumenWorks.Framework.IO.xml",
+        "lib/net45/LumenWorks.Framework.IO.dll",
+        "lib/net45/LumenWorks.Framework.IO.pdb",
+        "lib/net45/LumenWorks.Framework.IO.xml",
+        "lib/net461/LumenWorks.Framework.IO.dll",
+        "lib/net461/LumenWorks.Framework.IO.pdb",
+        "lib/net461/LumenWorks.Framework.IO.xml",
+        "lib/netstandard1.3/LumenWorks.Framework.IO.dll",
+        "lib/netstandard1.3/LumenWorks.Framework.IO.pdb",
+        "lib/netstandard1.3/LumenWorks.Framework.IO.xml",
+        "lib/netstandard2.0/LumenWorks.Framework.IO.dll",
+        "lib/netstandard2.0/LumenWorks.Framework.IO.pdb",
+        "lib/netstandard2.0/LumenWorks.Framework.IO.xml",
+        "lumenworkscsvreader.4.0.0.nupkg.sha512",
+        "lumenworkscsvreader.nuspec"
+      ]
+    },
+    "LumenWorksCsvReader2/4.1.2": {
+      "sha512": "0lLIxlwN3m1NolezlyEFtgzB0DlO058L0ZKOzE0x1ZTicLWy0y18DKQMNrsBbEHcy370SVGXsqe1oo4qHASjHw==",
+      "type": "package",
+      "path": "lumenworkscsvreader2/4.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/CsvReader.dll",
+        "lib/net45/CsvReader.pdb",
+        "lib/netcoreapp3.1/CsvReader.deps.json",
+        "lib/netcoreapp3.1/CsvReader.dll",
+        "lib/netcoreapp3.1/CsvReader.pdb",
+        "lib/netstandard2.0/CsvReader.deps.json",
+        "lib/netstandard2.0/CsvReader.dll",
+        "lib/netstandard2.0/CsvReader.pdb",
+        "lumenworkscsvreader2.4.1.2.nupkg.sha512",
+        "lumenworkscsvreader2.nuspec"
+      ]
+    },
+    "LumenWorksX.Framework.IO/1.0.1": {
+      "sha512": "5g8QwYF3exOuEEiv7zFtJb53xNPOe1GLeTRRjxw56b00fMuR4qJKh3Kp+Gpk8SfkaJkqHbKOvCGgj3mF2ehC7Q==",
+      "type": "package",
+      "path": "lumenworksx.framework.io/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/LumenWorks.Framework.IO.dll",
+        "lib/net452/LumenWorks.Framework.IO.pdb",
+        "lumenworksx.framework.io.1.0.1.nupkg.sha512",
+        "lumenworksx.framework.io.nuspec",
+        "src/Csv/CachedCsvReader.cs",
+        "src/Csv/Column.cs",
+        "src/Csv/CsvBindingList.cs",
+        "src/Csv/CsvPropertyDescriptor.cs",
+        "src/Csv/CsvReader.DataReaderValidations.cs",
+        "src/Csv/CsvReader.RecordEnumerator.cs",
+        "src/Csv/CsvReader.cs",
+        "src/Csv/CsvRecordComparer.cs",
+        "src/Csv/Events/ParseErrorEventArgs.cs",
+        "src/Csv/Exceptions/MalformedCsvException.cs",
+        "src/Csv/Exceptions/MissingFieldCsvException.cs",
+        "src/Csv/MissingFieldAction.cs",
+        "src/Csv/ParseErrorAction.cs",
+        "src/Csv/Resources/ExceptionMessage.Designer.cs",
+        "src/Csv/ValueTrimmingOptions.cs",
+        "src/Properties/AssemblyInfo.cs",
+        "src/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
+        "src/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
+        "src/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
+        "src/obj/Release/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
+        "src/obj/Release/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
+        "src/obj/Release/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "CsvHelper >= 27.1.1",
+      "LumenWorks.Framework.IO >= 3.8.0",
+      "LumenWorksCsvReader >= 4.0.0",
+      "LumenWorksCsvReader2 >= 4.1.2",
+      "LumenWorksX.Framework.IO >= 1.0.1"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Ermin - Business\\.nuget\\packages\\": {},
@@ -50,6 +222,28 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
+        "dependencies": {
+          "CsvHelper": {
+            "target": "Package",
+            "version": "[27.1.1, )"
+          },
+          "LumenWorks.Framework.IO": {
+            "target": "Package",
+            "version": "[3.8.0, )"
+          },
+          "LumenWorksCsvReader": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
+          "LumenWorksCsvReader2": {
+            "target": "Package",
+            "version": "[4.1.2, )"
+          },
+          "LumenWorksX.Framework.IO": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -68,5 +262,27 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LumenWorks.Framework.IO 3.8.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "LumenWorks.Framework.IO",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LumenWorksX.Framework.IO 1.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "LumenWorksX.Framework.IO",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

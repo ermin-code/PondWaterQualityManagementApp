@@ -5,4 +5,12 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="27.1.1" />
+    <PackageReference Include="LumenWorks.Framework.IO" Version="3.8.0" />
+    <PackageReference Include="LumenWorksCsvReader" Version="4.0.0" />
+    <PackageReference Include="LumenWorksCsvReader2" Version="4.1.2" />
+    <PackageReference Include="LumenWorksX.Framework.IO" Version="1.0.1" />
+  </ItemGroup>
+
 </Project>

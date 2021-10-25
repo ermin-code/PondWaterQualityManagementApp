@@ -43,6 +43,28 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[27.1.1, )"
+            },
+            "LumenWorks.Framework.IO": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "LumenWorksCsvReader": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "LumenWorksCsvReader2": {
+              "target": "Package",
+              "version": "[4.1.2, )"
+            },
+            "LumenWorksX.Framework.IO": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
