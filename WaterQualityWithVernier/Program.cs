@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 using System.IO;
 using CsvHelper;
 using CsvReader;
+using Microsoft.Extensions;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.Json;
+using Microsoft.Extensions.DependencyInjection;
+
+
 
 
 
@@ -13,10 +19,22 @@ namespace WaterQualityWithVernier
 {
     class Program
     {
+
+        public static IConfigurationRoot _config;
+
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World");
-            //Console.ReadLine();
+            // Initializing AppSettings.json to target specific file path
+
+            _config = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("D:/My Documents/Code Louisville/september2021/WaterQualityWithVernier/WaterQualityWithVernier/AppSettings.json") // Ask how to set this to local directory path instead of full file path
+                .Build();
+            
+       
+
+            // Changes font color in the console to green
+
             Console.ForegroundColor = ConsoleColor.Green;
             MainMenu();
         }
@@ -24,7 +42,6 @@ namespace WaterQualityWithVernier
         //Main Menu Section 
         static void MainMenu()
         {
-
             Console.Clear();
             Console.WriteLine("");
             Console.WriteLine("*********************** Welcome to Pond Water Quality with Vernier V.1.0 ***********************");
@@ -128,11 +145,13 @@ namespace WaterQualityWithVernier
 
             Console.Clear();
 
+            // Stores date and temperature data in CSV file following [date, temperature] format 
+
             List<string> DateAndTemp = new List<string>();
 
             DateAndTemp.Add($"{TExpDate},{TExpTemp}");
 
-            File.AppendAllLines("D:/My Documents/Code Louisville/september2021/WaterQualityWithVernier/WaterQualityWithVernier/Saved Data/TExpData.csv", DateAndTemp);
+            File.AppendAllLines(_config["TExpData"], DateAndTemp);
 
             Console.Clear();
             TempExpMenu();
@@ -149,13 +168,13 @@ namespace WaterQualityWithVernier
             Console.WriteLine("What date would you like to search temperature data for? (date/day/year format");
             Console.WriteLine("");
 
-            string TExpCSV = "D:/My Documents/Code Louisville/september2021/WaterQualityWithVernier/WaterQualityWithVernier/Saved Data/TExpData.csv";
+            string TExpCSV = _config["TExpData"];
             string TExpDate = Console.ReadLine();
             Console.Clear();
             char csvSeparator = ',';
 
 
-            
+            // 'For Loop' that searches each entry in TExpData.csv file. If user entry matches with data entry in csv file the console displays: Temperature on <entered date> date was ...
 
             foreach (string line in File.ReadLines(TExpCSV))
             {
@@ -180,6 +199,9 @@ namespace WaterQualityWithVernier
 
                 }
             }
+
+            // If user entry does not match with data entry in csv file, for loop breaks and the console displays: There is no temperature data for that date!
+
 
             Console.Clear();
             Console.WriteLine("There is no temperature data for that date!");
