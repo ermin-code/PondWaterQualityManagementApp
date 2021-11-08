@@ -11,6 +11,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.Json;
 using Microsoft.Extensions.DependencyInjection;
 
+
+using System.ComponentModel;
+using System.Diagnostics;
+
+using System.Threading;
+
 namespace WaterQualityWithVernier
 {
     class TExp
@@ -79,9 +85,10 @@ namespace WaterQualityWithVernier
             DateAndTemp.Add($"{TExpDate},{TExpTemp}");
 
             File.AppendAllLines(Program._config["TExpData"], DateAndTemp);
-
+           
             Console.Clear();
             TempExpMenu();
+          
         }
 
         //Temperature Experiment Data Search Section
