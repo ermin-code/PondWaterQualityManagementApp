@@ -85,10 +85,27 @@ namespace WaterQualityWithVernier
             DateAndTemp.Add($"{TExpDate},{TExpTemp}");
 
             File.AppendAllLines(Program._config["TExpData"], DateAndTemp);
+
+            int TExpTempInt = Int32.Parse(TExpTemp);
            
             Console.Clear();
-            TempExpMenu();
-          
+            
+            // Notifies user if water temperature that was entered is safe to feed their Koi fish
+            if (TExpTempInt <50)
+            {
+                Console.WriteLine("This temperature is NOT SAFE to feed your Koi fish! Press ENTER to continue..");
+            }
+
+            if (TExpTempInt >= 50)
+            {
+                Console.WriteLine("This temperature is safe to feed your Koi fish! Press ENTER to continue..");
+            }
+
+            Console.ReadLine();
+
+            Console.Clear();
+
+            TExp.TempExpMenu(); 
         }
 
         //Temperature Experiment Data Search Section
@@ -108,23 +125,41 @@ namespace WaterQualityWithVernier
 
 
             // 'For Loop' that searches each entry in TExpData.csv file. If user entry matches with data entry in csv file the console displays: Temperature on <entered date> date was ...
+            // this loop also has an additional feature which is to display if water temperature on searched date is safe for Koi fish feeding
 
             foreach (string line in File.ReadLines(TExpCSV))
             {
                 foreach (string value in line.Replace("\"", "").Split('\r', '\n', csvSeparator))
                 {
-                    if (value.Trim() == TExpDate.Trim()) // case sensitive
+                    if (value.Trim() == TExpDate.Trim() && (Int32.Parse(line.Split(',')[1]) < 50)) // case sensitive
                     {
                         Console.Clear();
                         Console.WriteLine("Temperature on " + value + " was " + line.Split(',')[1] + " degrees Fahrenheit.");
                         Console.WriteLine("");
+                        Console.WriteLine("This temperature is NOT SAFE to feed your Koi fish!");
                         Console.WriteLine("");
                         Console.WriteLine("Press ENTER to go back.");
                         Console.ReadLine();
                         Console.Clear();
+                        
                         TempExpMenu();
                     }
-                    while (value.Trim() != TExpDate.Trim())
+
+                    if (value.Trim() == TExpDate.Trim() && (Int32.Parse(line.Split(',')[1]) >= 50)) // case sensitive
+                    {
+                        Console.Clear();
+                        Console.WriteLine("Temperature on " + value + " was " + line.Split(',')[1] + " degrees Fahrenheit.");
+                        Console.WriteLine("");
+                        Console.WriteLine("This temperature is SAFE to feed your Koi fish!");
+                        Console.WriteLine("");
+                        Console.WriteLine("Press ENTER to go back.");
+                        Console.ReadLine();
+                        Console.Clear();
+
+                        TempExpMenu();
+                    }
+
+                    else if (value.Trim() != TExpDate.Trim())
                     {
                         break;
                     }

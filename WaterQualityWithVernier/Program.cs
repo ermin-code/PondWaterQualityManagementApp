@@ -60,19 +60,19 @@ namespace WaterQualityWithVernier
                     break;
 
                 case "2":
-                    pHExp();
+                    pHExp.pHExpApp();
                     break;
 
                 case "3":
-                    TurbExp();
+                    TurbExp.TurbExpApp();
                     break;
 
                 case "4":
-                    DOExp();
+                    DOExp.DOExpApp();
                     break;
 
                 case "5":
-                    ExpAnalysis();
+                    ExpAnalysis.ExpAnalysisApp();
                     break;
 
                 case "6":
@@ -81,46 +81,6 @@ namespace WaterQualityWithVernier
             }
 
             MainMenu();
-        }
-
-        // pH Experiment Section
-        static void pHExp()
-        {
-            Console.Clear();
-            Console.WriteLine("This is pH Experiment!");
-            Console.WriteLine("");
-            Console.WriteLine("Press ENTER to go back to the Main Menu");
-            Console.ReadLine();
-        }
-
-        // Turbidity Experiment Section
-        static void TurbExp()
-        {
-            Console.Clear();
-            Console.WriteLine("This is Turbidity Experiment!");
-            Console.WriteLine("");
-            Console.WriteLine("Press ENTER to go back to the Main Menu");
-            Console.ReadLine();
-        }
-
-        // Dissolved Oxygen Section
-        static void DOExp()
-        {
-            Console.Clear();
-            Console.WriteLine("This is Dissolved Oxygen Experiment!");
-            Console.WriteLine("");
-            Console.WriteLine("Press ENTER to go back to the Main Menu");
-            Console.ReadLine();
-        }
-
-        // Experimental Analysis Section
-        static void ExpAnalysis()
-        {
-            Console.Clear();
-            Console.WriteLine("This is Experimental Analysis!");
-            Console.WriteLine("");
-            Console.WriteLine("Press ENTER to go back to the Main Menu");
-            Console.ReadLine();
         }
 
         // Exit Program Section

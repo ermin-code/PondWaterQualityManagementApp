@@ -43,4 +43,3 @@ D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQuali
 D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\Microsoft.Net.Http.Headers.dll
-D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.csproj.CopyComplete
