@@ -56,7 +56,7 @@ namespace WaterQualityWithVernier
             switch (myoptions)
             {
                 case "1":
-                    TExp.TempExpMenu();
+                     TExp.TempExpMenu();
                     break;
 
                 case "2":
