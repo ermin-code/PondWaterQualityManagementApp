@@ -7,65 +7,50 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.Json;
 using Microsoft.Extensions.DependencyInjection;
 
-
-
-
-
-
-
 namespace WaterQualityWithVernier
 {
     class TExp
     {
- 
-
         // Temperature Experiment Menu
         public static void TempExpMenu()
         {
-            
-            
-            
+            Console.Clear();
+            Console.WriteLine("*********************** Temperature Experiment ***********************");
+            Console.WriteLine("");
+            Console.WriteLine("     Option 1. Enter Temperature Data");
+            Console.WriteLine("     Option 2. Search Temperature Data");
+            Console.WriteLine("     Option 3. Delete ALL Data");
+            Console.WriteLine("     Option 4. Exit to Main Menu");
 
+            string myoptions;
+            myoptions = Console.ReadLine();
+            switch (myoptions)
+            {
+                case "1":
 
-                Console.Clear();
-                Console.WriteLine("*********************** Temperature Experiment ***********************");
-                Console.WriteLine("");
-                Console.WriteLine("     Option 1. Enter Temperature Data");
-                Console.WriteLine("     Option 2. Search Temperature Data");
-                Console.WriteLine("     Option 3. Exit to Main Menu");
+                    TempExpEntry();
+                    break;
 
-                string myoptions;
-                myoptions = Console.ReadLine();
-                switch (myoptions)
-                {
-                    case "1":
-                        
-                        TempExpEntry();
-                        break;
+                case "2":
 
-                    case "2":
-                        
-                        TempExpDataSearch();
-                        break;
+                    TempExpDataSearch();
+                    break;
 
+                case "3":
 
-                    case "3":
-                        
-                        Program.MainMenu();
-                        break;
-                }
-            
+                    TempExpDataDeleteALL();
+                    break;
+
+                case "4":
+                    Program.MainMenu();
+                    break;
+            }
         }
-        
 
         // Temperature Data Entry Section
         public static void TempExpEntry()
         {
-            
-            using (FileStream f = File.Open(Program._config["TExpData"], FileMode.OpenOrCreate,FileAccess.Write, FileShare.Write))
-            {
-
-
+ 
                 Console.Clear();
                 Console.WriteLine("*********************** Temperature Experiment Data Entry ***********************");
                 Console.WriteLine("");
@@ -77,14 +62,14 @@ namespace WaterQualityWithVernier
                 Console.WriteLine(" This experiment will collect temperature data, store it in a database for later retreaval, and let you know if you should contine or stop feeding your fish based on last 7-day water temperature average.");
                 Console.WriteLine("");
                 Console.WriteLine("");
-                Console.WriteLine(" Please enter the date of the experiment (date/day/year format):");
+                Console.WriteLine(" Please enter the date of the experiment (Example: 06/01/2017):");
                 Console.WriteLine("");
 
                 string TExpDate = Console.ReadLine();
 
                 Console.Clear();
 
-                Console.WriteLine(" Please enter temperature recorded (in degrees Fahrenheit):");
+                Console.WriteLine(" Please enter temperature recorded (in \x00B0F):");
                 Console.WriteLine("");
 
                 string TExpTemp = Console.ReadLine();
@@ -92,140 +77,169 @@ namespace WaterQualityWithVernier
                 Console.Clear();
 
                 // Stores date and temperature data in CSV file following [date, temperature] format 
+                
+
+                
+
+                
+
+                
                 List<string> DateAndTemp = new List<string>();
+                List<string> DateAndTempInit = new List<string>();
 
-                DateAndTemp.Add($"{TExpDate},{TExpTemp}");
+                string path = Path.GetFullPath(Program._config["TExpData"]);
 
-
-                f.Dispose();
-              
-                
-                File.AppendAllLines(Program._config["TExpData"], DateAndTemp);
-
-
-                f.Dispose();
-
-
-
-
-                int TExpTempInt = Int32.Parse(TExpTemp);
-
-                // Notifies user if water temperature that was entered is safe to feed their Koi fish
-                if (TExpTempInt < 50)
+                if (File.Exists(path))
                 {
-                    Console.WriteLine("This temperature is NOT SAFE to feed your Koi fish! Press ENTER to continue..");
 
-                    Console.ReadLine();
 
-                    f.Dispose();
+                    DateAndTemp.Add($"{TExpDate},{TExpTemp}");
 
-                    Console.Clear();
+                    File.AppendAllLines(Program._config["TExpData"], DateAndTemp);
 
                     
 
-                    TExp.TempExpMenu();
+                    int TExpTempInt = Int32.Parse(TExpTemp);
+
+                    // Notifies user if water temperature that was entered is safe to feed their Koi fish
+                    if (TExpTempInt < 50)
+                    {
+                        Console.WriteLine("This temperature is NOT SAFE to feed your Koi fish! Press ENTER to continue..");
+
+                        Console.ReadLine();
+
+
+
+                        Console.Clear();
+
+                        TExp.TempExpMenu();
+                    }
+
+                    else if (TExpTempInt >= 50)
+                    {
+                        Console.WriteLine("This temperature is safe to feed your Koi fish! Press ENTER to continue..");
+
+                        Console.ReadLine();
+
+                        Console.Clear();
+
+                        TExp.TempExpMenu();
+                    }
+
                 }
 
-                else if (TExpTempInt >= 50)
+
+                else
                 {
-                    Console.WriteLine("This temperature is safe to feed your Koi fish! Press ENTER to continue..");
+
+
+                    DateAndTempInit.Add("Date,Temperature (\x00B0F)");
+
+                    File.AppendAllLines(Program._config["TExpData"], DateAndTempInit);
+
+                    Console.WriteLine("Initialized File. Please press ENTER to go back and re-enter data..");
 
                     Console.ReadLine();
-                    f.Dispose();
 
-                    Console.Clear();
+
+                    TempExpEntry();
+
+                }
+
+
+
 
                     
 
-                    TExp.TempExpMenu();
+
                 }
 
+
+
+
+
+
+
                 
-            }
-        }
+            
+        
 
 
         //Temperature Experiment Data Search Section
         public static void TempExpDataSearch()
         {
-
             using (FileStream f = File.Open(Program._config["TExpData"], FileMode.Open, FileAccess.ReadWrite, FileShare.Inheritable))
             {
-
                 Console.Clear();
                 Console.WriteLine("*********************** Temperature Experiment Data Search ***********************");
                 Console.WriteLine("");
-                Console.WriteLine("What date would you like to search temperature data for? (date/day/year format");
+                Console.WriteLine("What date would you like to search temperature data for? (Example: 06/01/2017)");
                 Console.WriteLine("");
-                
+
                 string TExpCSV = Program._config["TExpData"];
+
                 string TExpDate = Console.ReadLine();
-                f.Dispose();
+
                 Console.Clear();
 
                 char csvSeparator = ',';
 
-
                 // 'For Loop' that searches each entry in TExpData.csv file. If user entry matches with data entry in csv file the console displays: Temperature on <entered date> date was ...
                 // this loop also has an additional feature which is to display if water temperature on searched date is safe for Koi fish feeding
 
-
-                
-
-                foreach (string line in File.ReadLines(TExpCSV))
+                using (var reader = new StreamReader(f))
                 {
-                    foreach (string value in line.Replace("\"", "").Split('\r', '\n', csvSeparator))
+                    while (!reader.EndOfStream)
                     {
-                        if (value.Trim() == TExpDate.Trim() && (Int32.Parse(line.Split(',')[1]) < 50)) // case sensitive
+                        string line = reader.ReadLine();
+
+                        foreach (string value in line.Replace("\"", "").Split('\r', '\n', csvSeparator))
                         {
-                            Console.Clear();
-                            Console.WriteLine("Temperature on " + value + " was " + line.Split(',')[1] + " degrees Fahrenheit.");
-                            Console.WriteLine("");
-                            Console.WriteLine("This temperature is NOT SAFE to feed your Koi fish!");
-                            Console.WriteLine("");
-                            Console.WriteLine("Press ENTER to go back.");
-                            Console.ReadLine();
+                            if (value.Trim() == TExpDate.Trim() && (Int32.Parse(line.Split(',')[1]) < 50)) // case sensitive
+                            {
+                                Console.Clear();
+                                Console.WriteLine("Temperature on " + value + " was " + line.Split(',')[1] + " \x00B0F.");
+                                Console.WriteLine("");
+                                Console.WriteLine("This temperature is NOT SAFE to feed your Koi fish!");
+                                Console.WriteLine("");
+                                Console.WriteLine("Press ENTER to go back.");
+                                Console.ReadLine();
 
+                                f.Close();
 
+                                Console.Clear();
 
-                            f.Close();
-                            
-                            Console.Clear();
-                            
-                            TempExpMenu();
-                            
-                            break;
+                                TempExpMenu();
+
+                                break;
+                            }
+
+                            if (value.Trim() == TExpDate.Trim() && (Int32.Parse(line.Split(',')[1]) >= 50)) // case sensitive
+                            {
+                                Console.Clear();
+                                Console.WriteLine("Temperature on " + value + " was " + line.Split(',')[1] + " \x00B0F.");
+                                Console.WriteLine("");
+                                Console.WriteLine("This temperature is SAFE to feed your Koi fish!");
+                                Console.WriteLine("");
+                                Console.WriteLine("Press ENTER to go back.");
+                                Console.ReadLine();
+
+                                f.Close();
+
+                                Console.Clear();
+
+                                TempExpMenu();
+
+                                break;
+                            }
+
+                            else if (value.Trim() != TExpDate.Trim())
+                            {
+                                break;
+                            }
+
                         }
-
-                        if (value.Trim() == TExpDate.Trim() && (Int32.Parse(line.Split(',')[1]) >= 50)) // case sensitive
-                        {
-                            Console.Clear();
-                            Console.WriteLine("Temperature on " + value + " was " + line.Split(',')[1] + " degrees Fahrenheit.");
-                            Console.WriteLine("");
-                            Console.WriteLine("This temperature is SAFE to feed your Koi fish!");
-                            Console.WriteLine("");
-                            Console.WriteLine("Press ENTER to go back.");
-                            Console.ReadLine();
-
-
-                            f.Close();
-
-                            Console.Clear();
-                            
-                            TempExpMenu();
-                            
-                            break;
-                        }
-
-                        else if (value.Trim() != TExpDate.Trim())
-                        {
-                           
-                            break;
-                        }
-                        
-                   }
-                   
-                
+                    }
                 }
 
                 // If user entry does not match with data entry in csv file, for loop breaks and the console displays: There is no temperature data for that date!
@@ -236,15 +250,75 @@ namespace WaterQualityWithVernier
                 Console.WriteLine("");
                 Console.WriteLine("Press ENTER to go back");
                 Console.ReadLine();
-              
+
                 f.Close();
 
                 Console.Clear();
-                
+
                 TempExpMenu();
-          
-               
+
             }
         }
+
+         public static void TempExpDataDeleteALL()
+        {
+
+            Console.Clear();
+            Console.WriteLine("*********************** Delete ALL Temperature Experiment Data ***********************");
+            Console.WriteLine("");
+            Console.WriteLine("Do you wish to delete ALL data? (Y/N)");
+           
+
+            string Answer = Console.ReadLine();
+
+            string TExpDataFile = Path.GetFullPath(Program._config["TExpData"]);
+
+           
+
+            if (Answer == "Y")
+            {
+              
+                    if (File.Exists(Program._config["TExpData"]))
+                    {
+
+                        File.Delete(TExpDataFile);
+                        Console.WriteLine(TExpDataFile);
+                        Console.Clear();
+                        Console.WriteLine("File was deleted. Press ENTER to go back to the main menu..");
+                        Console.ReadLine();
+                        Console.Clear();
+                        TempExpMenu();
+                    }
+
+                    else
+
+                        Console.Clear();
+                        Console.WriteLine("File not found");
+                        Console.WriteLine("");
+                        Console.WriteLine("Press ENTER to go back to the main menu..");
+                        Console.ReadLine();
+                        Console.Clear();
+                        TempExpMenu();
+            }
+
+            else if (Answer == "N")
+            {
+                Console.Clear();
+                Console.WriteLine("Data file was NOT deleted. Please press ENTER to go back to the main menu..");
+                Console.ReadLine();
+                Console.Clear();
+                TempExpMenu();
+
+            }
+        }
+
+        
+
     }
 }
+        
+
+    
+
+
+
