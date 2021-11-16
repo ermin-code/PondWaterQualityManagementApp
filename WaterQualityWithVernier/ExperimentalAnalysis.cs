@@ -11,30 +11,44 @@ using ConsoleTables;
 
 namespace WaterQualityWithVernier
 {
-    class ExpAnalysis
+    class ExperimentalAnalysis
     {
-        public static void ExpAnalysisApp()
+        public static void ExperimentalAnalysisMainMenu()
         {
             Console.Clear();
+            
             Console.WriteLine("");
+            
             Console.WriteLine("*********************** Experimental Analysis ***********************");
+            
             Console.WriteLine("");
-            Console.WriteLine("     Option 1. Temperature Experiment");
+            
+            Console.WriteLine("     Option 1. Temperature Experiment Analysis");
+            
             Console.WriteLine("     Option 2. ");
+            
             Console.WriteLine("     Option 3. ");
+            
             Console.WriteLine("     Option 4. ");
+            
             Console.WriteLine("     Option 5. ");
+            
             Console.WriteLine("");
+            
             Console.WriteLine("     Option 6. ");
+            
             Console.WriteLine("");
+            
             Console.WriteLine("     Please type which option you would like to choose:");
 
-            string myoptions;
-            myoptions = Console.ReadLine();
-            switch (myoptions)
+            string myOptions;
+            
+            myOptions = Console.ReadLine();
+            
+            switch (myOptions)
             {
                 case "1":
-                    TExpAnalysis();
+                    TemperatureExperimentAnalysisMenu();
                     break;
 
                 case "2":
@@ -61,23 +75,32 @@ namespace WaterQualityWithVernier
             Program.MainMenu();
         }
 
-        static void TExpAnalysis()
+        static void TemperatureExperimentAnalysisMenu()
         {
             Console.Clear();
+            
             Console.WriteLine("");
+            
             Console.WriteLine("*********************** Temperature Experiment Analysis ***********************");
+            
             Console.WriteLine("");
+            
             Console.WriteLine("     Option 1. Temperature Data Chart");
+            
             Console.WriteLine("     Option 2. Exit to Main Menu");
+            
             Console.WriteLine("");
+            
             Console.WriteLine("     Please type which option you would like to choose:");
 
-            string myoptions;
-            myoptions = Console.ReadLine();
-            switch (myoptions)
+            string myOptions;
+            
+            myOptions = Console.ReadLine();
+            
+            switch (myOptions)
             {
                 case "1":
-                    TempExpDataChart.TExpDataChart();
+                    TemperatureExperimentDataTable.TemperatureExperimentTable();
                     break;
 
 
@@ -87,12 +110,9 @@ namespace WaterQualityWithVernier
             }
 
             Program.MainMenu();
-
-
         }
-        } 
-
-    }
+    } 
+}
 
 
 

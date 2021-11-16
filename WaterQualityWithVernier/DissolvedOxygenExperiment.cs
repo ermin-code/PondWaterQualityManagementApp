@@ -6,15 +6,19 @@ using System.Threading.Tasks;
 
 namespace WaterQualityWithVernier
 {
-    class TurbExp
+    class DissolvedOxygenExperiment
     {
-        // Turbidity Experiment Section
-        public static void TurbExpApp()
+        // Dissolved Oxygen Section
+        public static void DissolvedOxygenMainMenu()
         {
             Console.Clear();
-            Console.WriteLine("This is Turbidity Experiment!");
+            
+            Console.WriteLine("This is Dissolved Oxygen Experiment!");
+            
             Console.WriteLine("");
+            
             Console.WriteLine("Press ENTER to go back to the Main Menu");
+            
             Console.ReadLine();
         }
     }

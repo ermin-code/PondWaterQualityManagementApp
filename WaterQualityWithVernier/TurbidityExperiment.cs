@@ -6,17 +6,20 @@ using System.Threading.Tasks;
 
 namespace WaterQualityWithVernier
 {
-    class pHExp
+    class TurbidityExperiment
     {
-        // pH Experiment Section
-        public static void pHExpApp()
+        // Turbidity Experiment Section
+        public static void TurbidityExperimentMainMenu()
         {
             Console.Clear();
-            Console.WriteLine("This is pH Experiment!");
+            
+            Console.WriteLine("This is Turbidity Experiment!");
+            
             Console.WriteLine("");
+            
             Console.WriteLine("Press ENTER to go back to the Main Menu");
+            
             Console.ReadLine();
-
         }
     }
 }

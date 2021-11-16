@@ -21,78 +21,104 @@ namespace WaterQualityWithVernier
 
         static void Main(string[] args)
         {
-            // Initializing AppSettings.json to target specific file path
 
+            // Initializing AppSettings.json to target a specific file path
+           
             _config = new ConfigurationBuilder()
+                
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("D:/My Documents/Code Louisville/september2021/WaterQualityWithVernier/WaterQualityWithVernier/AppSettings.json") // Ask how to set this to local directory path instead of full file path
+                
+                .AddJsonFile("D:/My Documents/Code Louisville/september2021/WaterQualityWithVernier/WaterQualityWithVernier/AppSettings.json")
+                
                 .Build();
             
+
             // Changes font color in the console to green
 
             Console.ForegroundColor = ConsoleColor.Green;
+            
             MainMenu();
         }
+
 
         //Main Menu Section 
         public static void MainMenu()
         {
             Console.Clear();
+            
             Console.WriteLine("");
-            Console.WriteLine("*********************** Welcome to Pond Water Quality with Vernier V.1.0 ***********************");
+            
+            Console.WriteLine("*********************** Welcome to Pond Water Quality Testing ***********************");
+            
             Console.WriteLine("");
-            Console.WriteLine("     Option 1. Temperature Experiment (Stainless Steel Temperature Probe Required)");
-            Console.WriteLine("     Option 2. pH Experiment (pH Sensor Required)");
-            Console.WriteLine("     Option 3. Turbidity Experiment (Turbidity Sensor Required)");
-            Console.WriteLine("     Option 4. Dissolved Oxygen Experiment (Dissolved Oxygen Sensor Required)");
+            
+            Console.WriteLine("     Option 1. Temperature Experiment");
+            
+            Console.WriteLine("     Option 2. pH Experiment");
+            
+            Console.WriteLine("     Option 3. Turbidity Experiment");
+            
+            Console.WriteLine("     Option 4. Dissolved Oxygen Experiment");
+            
             Console.WriteLine("     Option 5. Experimental Analysis");
+            
             Console.WriteLine("");
+            
             Console.WriteLine("     Option 6. Exit The Program");
+            
             Console.WriteLine("");
-            Console.WriteLine("     Please type which option you would like to choose:");
+            
+            Console.WriteLine("     Please type in which option you would like to choose:");
 
-            string myoptions;
-            myoptions = Console.ReadLine();
-            switch (myoptions)
+            string myOptions;
+            
+            myOptions = Console.ReadLine();
+            
+            switch (myOptions)
             {
                 case "1":
-                     TExp.TempExpMenu();
+                     TemperatureExperiment.TemperatureExperimentMainMenu();
                     break;
 
                 case "2":
-                    pHExp.pHExpApp();
+                    pHExperiment.pHExperimentMainMenu();
                     break;
 
                 case "3":
-                    TurbExp.TurbExpApp();
+                    TurbidityExperiment.TurbidityExperimentMainMenu();
                     break;
 
                 case "4":
-                    DOExp.DOExpApp();
+                    DissolvedOxygenExperiment.DissolvedOxygenMainMenu();
                     break;
 
                 case "5":
-                    ExpAnalysis.ExpAnalysisApp();
+                    ExperimentalAnalysis.ExperimentalAnalysisMainMenu();
                     break;
 
                 case "6":
-                    Exit();
+                    ExitProgram();
                     break;
             }
 
             MainMenu();
         }
 
+
         // Exit Program Section
-        static void Exit()
+        static void ExitProgram()
         {
             Console.Clear();
+            
             Console.WriteLine("Are you sure you would like to exit the program?");
+            
             Console.WriteLine("");
+            
             Console.WriteLine("Press ENTER on the Keyboard to Confirm!");
+            
             Console.ReadLine();
+            
             System.Environment.Exit(1);
-
         }
     }
 }

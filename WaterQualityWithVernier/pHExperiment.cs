@@ -6,15 +6,19 @@ using System.Threading.Tasks;
 
 namespace WaterQualityWithVernier
 {
-    class DOExp
+    class pHExperiment
     {
-        // Dissolved Oxygen Section
-        public static void DOExpApp()
+        // pH Experiment Section
+        public static void pHExperimentMainMenu()
         {
             Console.Clear();
-            Console.WriteLine("This is Dissolved Oxygen Experiment!");
+            
+            Console.WriteLine("This is pH Experiment!");
+            
             Console.WriteLine("");
+            
             Console.WriteLine("Press ENTER to go back to the Main Menu");
+            
             Console.ReadLine();
         }
     }
