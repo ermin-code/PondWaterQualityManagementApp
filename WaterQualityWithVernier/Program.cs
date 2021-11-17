@@ -89,7 +89,7 @@ namespace WaterQualityWithVernier
                     break;
 
                 case "4":
-                    DissolvedOxygenExperiment.DissolvedOxygenMainMenu();
+                    DissolvedOxygenExperiment.DissolvedOxygenExperimentMainMenu();
                     break;
 
                 case "5":

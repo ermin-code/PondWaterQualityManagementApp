@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3bf43614-d29b-47bf-88fe-52b80acaf7cf": {
+      "ProjectGuid": "3bf43614-d29b-47bf-88fe-52b80acaf7cf",
+      "DisplayName": "WaterQualityWithVernier",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
