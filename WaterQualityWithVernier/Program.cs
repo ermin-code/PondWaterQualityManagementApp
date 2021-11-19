@@ -41,17 +41,55 @@ namespace WaterQualityWithVernier
         }
 
 
-        //Main Menu Section 
+        // Program Main Menu Section 
         public static void MainMenu()
         {
             Console.Clear();
-            
+       
             Console.WriteLine("");
             
-            Console.WriteLine("*********************** Welcome to Pond Water Quality Testing ***********************");
+            Console.WriteLine(" ***************** Welcome to Fish Pond Water Quality Testing V 1.0 ******************");
             
+            Console.WriteLine(" *                                                                                   *");
+
+            Console.WriteLine(" *                                                                                   *");
+            
+            Console.WriteLine(" *                              FISHKISSFISHKIS                                      *");
+
+            Console.WriteLine(" *                           SFISHKISSFISHKISSFISH             F                     *");
+
+            Console.WriteLine(" *                        ISHK   ISSFISHKISSFISHKISSS         FI                     *");
+
+            Console.WriteLine(" *                      SHKISS   FISHKISSFISHKISSFISHFI      FIS                     *");
+
+            Console.WriteLine(" *                     HKISSFISHKISSFISHKISSFISHKISSFISH    KISS                     *");
+
+            Console.WriteLine(" *                       FISHKISSFISHKISSFISHKISSFISHKISS  FISHK                     *");
+
+            Console.WriteLine(" *                           SSFISHKISSFISHKISSFISHKISSFISHKISSF                     *");
+
+            Console.WriteLine(" *                       ISHKISSFISHKISSFISHKISSFISHKISSF  ISHKI                     *");
+
+            Console.WriteLine(" *                     SSFISHKISSFISHKISSFISHKISSFISHKIS    SFIS                     *");
+
+            Console.WriteLine(" *                       HKISSFISHKISSFISHKISSFISHKISS       FIS                     *");
+
+            Console.WriteLine(" *                         HKISSFISHKISSFISHKISSFISHK         IS                     *");
+
+            Console.WriteLine(" *                            SFISHKISSFISHKISSFISH            K                     *");
+
+            Console.WriteLine(" *                              ISSFISHKISSFISHK                                     *");
+
+            Console.WriteLine(" *                                                                                   *");
+
+            Console.WriteLine(" *                                                                                   *");
+
+            Console.WriteLine(" *                 (\u00a9) Created by Ermin Vila - All rights reserved.                  *");
+
+            Console.WriteLine(" *************************************************************************************");
+
             Console.WriteLine("");
-            
+
             Console.WriteLine("     Option 1. Temperature Experiment");
             
             Console.WriteLine("     Option 2. pH Experiment");

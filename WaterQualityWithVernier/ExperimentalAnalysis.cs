@@ -13,13 +13,15 @@ namespace WaterQualityWithVernier
 {
     class ExperimentalAnalysis
     {
+
+        // Experimental Analysis Main Menu Section
         public static void ExperimentalAnalysisMainMenu()
         {
             Console.Clear();
 
             Console.WriteLine("");
 
-            Console.WriteLine("*********************** Experimental Analysis ***********************");
+            Console.WriteLine(" *********************** Experimental Analysis ***********************");
 
             Console.WriteLine("");
 
@@ -70,19 +72,25 @@ namespace WaterQualityWithVernier
             Program.MainMenu();
         }
 
+
+        // Temperature Experiment Analysis Main Menu Section
         static void TemperatureExperimentAnalysisMenu()
         {
             Console.Clear();
 
             Console.WriteLine("");
 
-            Console.WriteLine("*********************** Temperature Experiment Analysis ***********************");
+            Console.WriteLine(" *********************** Temperature Experiment Analysis ***********************");
 
             Console.WriteLine("");
 
             Console.WriteLine("     Option 1. Temperature Data Table");
 
+            Console.WriteLine();
+
             Console.WriteLine("     Option 2. Exit to Main Menu");
+
+            Console.WriteLine("");
 
             Console.WriteLine("");
 
@@ -105,19 +113,26 @@ namespace WaterQualityWithVernier
             }
 
         }
+
+
+        // pH Experiment Analysis Main Menu Section
         static void pHExperimentAnalysisMenu()
         {
             Console.Clear();
 
             Console.WriteLine("");
 
-            Console.WriteLine("*********************** pH Experiment Analysis ***********************");
+            Console.WriteLine(" *********************** pH Experiment Analysis ***********************");
 
             Console.WriteLine("");
 
             Console.WriteLine("     Option 1. pH Data Table");
 
+            Console.WriteLine("");
+
             Console.WriteLine("     Option 2. Exit to Main Menu");
+
+            Console.WriteLine("");
 
             Console.WriteLine("");
 
@@ -140,19 +155,25 @@ namespace WaterQualityWithVernier
 
         }
 
+
+        // Turbidity Experiment Analysis Main Menu Section
         static void TurbidityExperimentAnalysisMenu()
         {
             Console.Clear();
 
             Console.WriteLine("");
 
-            Console.WriteLine("*********************** Turbidity Experiment Analysis ***********************");
+            Console.WriteLine(" *********************** Turbidity Experiment Analysis ***********************");
 
             Console.WriteLine("");
 
             Console.WriteLine("     Option 1. Turbidity Data Table");
 
+            Console.WriteLine("");
+
             Console.WriteLine("     Option 2. Exit to Main Menu");
+
+            Console.WriteLine("");
 
             Console.WriteLine("");
 
@@ -178,19 +199,25 @@ namespace WaterQualityWithVernier
         }
 
 
+
+        // Dissolved Oxygen Experiment Analysis Main Menu Section
         static void DissolvedOxygenExperimentAnalysisMenu()
         {
             Console.Clear();
 
             Console.WriteLine("");
 
-            Console.WriteLine("*********************** Dissolved Oxygen Experiment Analysis ***********************");
+            Console.WriteLine(" *********************** Dissolved Oxygen Experiment Analysis ***********************");
 
             Console.WriteLine("");
 
             Console.WriteLine("     Option 1. Dissolved Oxygen Data Table");
 
+            Console.WriteLine("");
+
             Console.WriteLine("     Option 2. Exit to Main Menu");
+
+            Console.WriteLine("");
 
             Console.WriteLine("");
 

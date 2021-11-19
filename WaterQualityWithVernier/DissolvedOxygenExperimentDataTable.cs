@@ -70,15 +70,21 @@ namespace WaterQualityWithVernier
                     return dtData;
                 }
 
+                // Notifies user that CSV data file does not exist
+
                 else
                 {
                     Console.Clear();
 
-                    Console.WriteLine("Data file for the Dissolved Oxygen Experiment does not exist!");
+                    Console.WriteLine(" *********************** Dissolved Oxygen Experiment Analysis ***********************");
 
                     Console.WriteLine("");
 
-                    Console.WriteLine("Press ENTER to go back to the Main Menu..");
+                    Console.WriteLine("  Data file for the Dissolved Oxygen Experiment does not exist!");
+
+                    Console.WriteLine("");
+
+                    Console.WriteLine("  Press ENTER to go back to the Main Menu..");
 
                     Console.ReadLine();
 
@@ -88,12 +94,19 @@ namespace WaterQualityWithVernier
                 }
             }
 
+
+            // Dissolved Oxygen Experiment Data Table Display Section
+
             public void DissolvedOxygenExperimentShowTable(DataTable dtData)
             {
                 Console.Clear();
 
                 if (dtData != null && dtData.Rows.Count > 0)
                 {
+                    Console.WriteLine(" *********************** Dissolved Oxygen Experiment Analysis ***********************");
+
+                    Console.WriteLine("");
+
                     Console.WriteLine("\n    DISSOLVED OXYGEN EXPERIMENT DATA TABLE");
 
                     Console.WriteLine(" ____________________________________________");
@@ -120,7 +133,7 @@ namespace WaterQualityWithVernier
 
                     Console.WriteLine("");
 
-                    Console.WriteLine("Please press ENTER to go back to the Dissolved Oxygen Experiment menu..");
+                    Console.WriteLine("  Please press ENTER to go back to the Dissolved Oxygen Experiment menu..");
 
                     Console.ReadLine();
 

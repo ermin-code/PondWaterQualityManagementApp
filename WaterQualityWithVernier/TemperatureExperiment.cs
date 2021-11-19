@@ -11,12 +11,12 @@ namespace WaterQualityWithVernier
 {
     class TemperatureExperiment
     {
-        // Temperature Experiment Menu
+        // Temperature Experiment Main Menu
         public static void TemperatureExperimentMainMenu()
-        {
+        { 
             Console.Clear();
             
-            Console.WriteLine("*********************** Temperature Experiment ***********************");
+            Console.WriteLine(" *********************** Temperature Experiment ***********************");
             
             Console.WriteLine("");
             
@@ -59,27 +59,53 @@ namespace WaterQualityWithVernier
         {
                 Console.Clear();
                 
-                Console.WriteLine("*********************** Temperature Experiment Data Entry ***********************");
+                Console.WriteLine(" *********************** Temperature Experiment Data Entry ***********************");
                 
                 Console.WriteLine("");
-                
-                Console.WriteLine(" In this experiment you will collect temperature data on your pond water using Vernier temperature probe, Texas Instruments Graphing Calculator with attached CBL2 Calculator-Based Laboratory.");
-                
-                Console.WriteLine(" Outdoor water temperatures can range from 32 degrees Celsius to above 86 degrees Celsius in the summer. In general, cooler water in pond is generally considered healthier than warmer water.");
-                
-                Console.WriteLine(" Pond water temperature plays a vital role in the overal health of the eco-system and the health of pond fish. The perfect pond water should be in the range of 68 to 74 degrees Fahrenheit.");
-                
-                Console.WriteLine(" During summer, water loses much of its ability to hold oxygen when the temperature is above 85 degrees. In winter, when the temperature goes below 39 degrees Fahrenheit fish do not have to eat.");
+
+                Console.WriteLine("  In this experiment you will collect temperature data on your pond water using ");
+
+                Console.WriteLine("  Vernier temperature probe, Texas Instruments Graphing Calculator with attached ");
+
+                Console.WriteLine("  CBL2 Calculator-Based Laboratory.");
+
+                Console.WriteLine("");
+
+                Console.WriteLine("  Outdoor water temperatures can range from 32 degrees Celsius to above 86 degrees ");
+
+                Console.WriteLine("  Celsius in the summer. In general, cooler water in the pond is generally considered ");
+
+                Console.WriteLine("  healthier than warmer water.");
+
+                Console.WriteLine();
+
+                Console.WriteLine("  Pond water temperature plays a vital role in the overal health of the eco-system ");
+
+                Console.WriteLine("  and the health of pond fish. The perfect pond water should be in the range of ");
+
+                Console.WriteLine("  68 to 74 degrees Fahrenheit.");
+
+                Console.WriteLine("");
+
+                Console.WriteLine("  During summer, water loses much of its ability to hold oxygen when ");
+
+                Console.WriteLine("  temperature is above 85 degrees. In winter, when temperature goes below 39 ");
+
+                Console.WriteLine("  degrees Fahrenheit fish do not have to eat.");
                 
                 Console.WriteLine("");
+
+                Console.WriteLine("  This experiment will collect temperature data, store it for later retreaval,");
+
+                Console.WriteLine("  and let you know if you should continue or stop feeding your fish based on ");
                 
-                Console.WriteLine(" This experiment will collect temperature data, store it for later retreaval, and let you know if you should contine or stop feeding your fish based on the water temperature entered.");
+                Console.WriteLine("  water temperature entered.");
                 
                 Console.WriteLine("");
-                
+
                 Console.WriteLine("");
-                
-                Console.WriteLine(" Please enter the date of the experiment (Example: 06/01/2017):");
+            
+                Console.WriteLine("  Please enter date for experiment (Example: 06/01/2017):");
                 
                 Console.WriteLine("");
 
@@ -87,16 +113,17 @@ namespace WaterQualityWithVernier
 
                 Console.Clear();
 
-                Console.WriteLine(" Please enter temperature recorded (in \x00B0F):");
+                Console.WriteLine(" *********************** Temperature Experiment Data Entry ***********************");
+
+                Console.WriteLine("");
+
+                Console.WriteLine("  Please enter temperature observed (in \x00B0F):");
                 
                 Console.WriteLine("");
 
                 string tExpTemp = Console.ReadLine();
 
                 Console.Clear();
-
-
-                // Stores date and temperature data in CSV file following [date, temperature] format 
                      
                 List<string> dateAndTemp = new List<string>();
                 
@@ -104,20 +131,32 @@ namespace WaterQualityWithVernier
 
                 string path = Path.GetFullPath(Program._config["TempExpDataFile"]);
 
+
+                /** If statement checks if CSV data file is present. If it is present, the program continues..
+                 If CSV data file is not present, it initializes or creates an empty CSV data file**/
+
                 if (File.Exists(path))
                 {
                     dateAndTemp.Add($"{tExpDate},{tExpTemp}");
 
+                    // Stores date and temperature data in CSV file following [date, temperature] format 
+                
                     File.AppendAllLines(Program._config["TempExpDataFile"], dateAndTemp);
 
                     int tExpTempInt = Int32.Parse(tExpTemp);
 
 
-                    // Notifies user if water temperature that was entered is safe to feed their Koi fish
+                    // If temperature is less than 50 degrees Fahrenheit it notifies user that water temperature is not safe for feeding Koi fish
        
                     if (tExpTempInt < 50)
                     {
-                        Console.WriteLine("This temperature is NOT SAFE to feed your Koi fish! Press ENTER to continue..");
+                        Console.Clear();
+                    
+                        Console.WriteLine(" *********************** Temperature Experiment Data Entry ***********************");
+
+                        Console.WriteLine("");
+
+                        Console.WriteLine("  This temperature is NOT SAFE to feed your Koi fish! Press ENTER to continue..");
 
                         Console.ReadLine();
 
@@ -126,9 +165,18 @@ namespace WaterQualityWithVernier
                         TemperatureExperiment.TemperatureExperimentMainMenu();
                     }
 
-                    else if (tExpTempInt >= 50)
+
+                // If temperature is equal to or above 50 degrees Fahrenheit it notifies user that water temperature is safe for feeding Koi fish
+
+                else if (tExpTempInt >= 50)
                     {
-                        Console.WriteLine("This temperature is SAFE to feed your Koi fish! Press ENTER to continue..");
+                        Console.Clear();
+                    
+                        Console.WriteLine(" *********************** Temperature Experiment Data Entry ***********************");
+
+                        Console.WriteLine("");
+
+                        Console.WriteLine("  This temperature is SAFE to feed your Koi fish! Press ENTER to continue..");
 
                         Console.ReadLine();
 
@@ -138,150 +186,217 @@ namespace WaterQualityWithVernier
                     }
                 }
 
+
+                // Initializes/creates an empty CSV data file
+
                 else
                 {
-                    dateAndTempInit.Add("Date,Temperature (\x00B0F)");
+                        dateAndTempInit.Add("Date,Temperature (\x00B0F)");
 
-                    File.AppendAllLines(Program._config["TempExpDataFile"], dateAndTempInit);
+                        File.AppendAllLines(Program._config["TempExpDataFile"], dateAndTempInit);
 
-                    Console.WriteLine("Initialized File. Please press ENTER to go back and re-enter data..");
+                        Console.Clear();
 
-                    Console.ReadLine();
+                        Console.WriteLine(" *********************** Temperature Experiment Data Entry ***********************");
 
-                    TemperatureExperimentDataEntry();
+                        Console.WriteLine("");
+
+                        Console.WriteLine("  Initialized File. Please press ENTER to go back and re-enter data..");
+
+                        Console.ReadLine();
+
+                        TemperatureExperimentDataEntry();
                 }            
         }
-   
+
 
         //Temperature Experiment Data Search Section
         public static void TemperatureExperimentDataSearch()
         {
-            using (FileStream f = File.Open(Program._config["TempExpDataFile"], FileMode.Open, FileAccess.ReadWrite, FileShare.Inheritable)) // Here I need to enter if statement that tests for presence of CSV data file...
+            string path = Program._config["TempExpDataFile"];
+
+
+            // If statement checks if CSV data file exists. If it does exist, it then proceeds with searching the file 
+            
+            // If CSV file does not exist, it notifies user and gives direction to enter data
+
+            if (File.Exists(path))
             {
-                Console.Clear();
-                
-                Console.WriteLine("*********************** Temperature Experiment Data Search ***********************");
-                
-                Console.WriteLine("");
-                
-                Console.WriteLine("What date would you like to search temperature data for? (Example: 06/01/2017)");
-                
-                Console.WriteLine("");
-
-                string tExpCSV = Program._config["TempExpDataFile"];
-
-                string tExpDate = Console.ReadLine();
-
-                Console.Clear();
-
-                char csvSeparator = ',';
-
-
-                // 'For Loop' that searches each entry in TExpData.csv file. If user entry matches with data entry in csv file the console displays: Temperature on <entered date> date was ...
-                // this loop also has an additional feature which is to display if water temperature on searched date is safe for Koi fish feeding
-
-                using (var reader = new StreamReader(f))
+                using (FileStream f = File.Open(Program._config["TempExpDataFile"], FileMode.Open, FileAccess.ReadWrite, FileShare.Inheritable)) 
                 {
-                    while (!reader.EndOfStream)
-                    {
-                        string line = reader.ReadLine();
+                    Console.Clear();
 
-                        foreach (string value in line.Replace("\"", "").Split('\r', '\n', csvSeparator))
+                    Console.WriteLine(" *********************** Temperature Experiment Data Search ***********************");
+
+                    Console.WriteLine("");
+
+                    Console.WriteLine("  Enter date that you would like to search: (Example: 06/01/2017)");
+
+                    Console.WriteLine("");
+
+                    string tExpCSV = Program._config["TempExpDataFile"];
+
+                    string tExpDate = Console.ReadLine();
+
+                    Console.Clear();
+
+                    char csvSeparator = ',';
+
+
+                    // 'While Loop' that searches TExpData.csv file for user input
+                    
+                    // this loop also has an additional feature which is to test if water temperature on searched date is safe for Koi fish feeding
+
+                    using (var reader = new StreamReader(f))
+
+
+
+                        while (!reader.EndOfStream)
                         {
-                            if (value.Trim() == tExpDate.Trim() && (Int32.Parse(line.Split(',')[1]) < 50)) // case sensitive
+                            string line = reader.ReadLine();
+
+                            foreach (string value in line.Replace("\"", "").Split('\r', '\n', csvSeparator))
                             {
-                                Console.Clear();
-                                
-                                Console.WriteLine("Temperature on " + value + " was " + line.Split(',')[1] + " \x00B0F.");
-                                
-                                Console.WriteLine("");
-                                
-                                Console.WriteLine("This temperature is NOT SAFE to feed your Koi fish!");
-                                
-                                Console.WriteLine("");
-                                
-                                Console.WriteLine("Press ENTER to go back..");
-                                
-                                Console.ReadLine();
+                                if (value.Trim() == tExpDate.Trim() && (Int32.Parse(line.Split(',')[1]) < 50)) // case sensitive
+                                {
+                                    Console.Clear();
 
-                                f.Close();
+                                    Console.WriteLine(" *********************** Temperature Experiment Data Search ***********************");
 
-                                Console.Clear();
+                                    Console.WriteLine("");
 
-                                TemperatureExperimentMainMenu();
+                                    Console.WriteLine("  Temperature on " + value + " was " + line.Split(',')[1] + " \x00B0F.");
 
-                                break;
-                            }
+                                    Console.WriteLine("");
 
-                            if (value.Trim() == tExpDate.Trim() && (Int32.Parse(line.Split(',')[1]) >= 50)) // case sensitive
-                            {
-                                Console.Clear();
-                                
-                                Console.WriteLine("Temperature on " + value + " was " + line.Split(',')[1] + " \x00B0F.");
-                                
-                                Console.WriteLine("");
-                                
-                                Console.WriteLine("This temperature is SAFE to feed your Koi fish!");
-                                
-                                Console.WriteLine("");
-                                
-                                Console.WriteLine("Press ENTER to go back.");
-                                
-                                Console.ReadLine();
+                                    Console.WriteLine("  This temperature is NOT SAFE to feed your Koi fish!");
 
-                                f.Close();
+                                    Console.WriteLine("");
 
-                                Console.Clear();
+                                    Console.WriteLine("  Press ENTER to go back..");
 
-                                TemperatureExperimentMainMenu();
+                                    Console.ReadLine();
 
-                                break;
-                            }
+                                    f.Close();
 
-                            else if (value.Trim() != tExpDate.Trim())
-                            {
-                                break;
+                                    Console.Clear();
+
+                                    TemperatureExperimentMainMenu();
+
+                                    break;
+                                }
+
+                                if (value.Trim() == tExpDate.Trim() && (Int32.Parse(line.Split(',')[1]) >= 50)) // case sensitive
+                                {
+                                    Console.Clear();
+
+                                    Console.WriteLine(" *********************** Temperature Experiment Data Search ***********************");
+
+                                    Console.WriteLine("");
+
+                                    Console.WriteLine("  Temperature on " + value + " was " + line.Split(',')[1] + " \x00B0F.");
+
+                                    Console.WriteLine("");
+
+                                    Console.WriteLine("  This temperature is SAFE to feed your Koi fish!");
+
+                                    Console.WriteLine("");
+
+                                    Console.WriteLine("  Press ENTER to go back.");
+
+                                    Console.ReadLine();
+
+                                    f.Close();
+
+                                    Console.Clear();
+
+                                    TemperatureExperimentMainMenu();
+
+                                    break;
+                                }
+
+                                else if (value.Trim() != tExpDate.Trim())
+                                {
+                                    break;
+                                }
                             }
                         }
-                    }
+
+
+                    /** If user entry does not match with data entry in csv file, 'while loop' breaks and the console notifies
+                    user that there is no temperature data for that date **/
+
+                    Console.Clear();
+
+                    Console.WriteLine(" *********************** Temperature Experiment Data Search ***********************");
+
+                    Console.WriteLine("");
+
+                    Console.WriteLine("  There is no temperature data for that date!");
+
+                    Console.WriteLine("");
+
+                    Console.WriteLine("");
+
+                    Console.WriteLine("  Press ENTER to go back");
+
+                    Console.ReadLine();
+
+                    f.Close();
+
+                    Console.Clear();
+
+                    TemperatureExperimentMainMenu();
                 }
+            }
 
 
-                // If user entry does not match with data entry in csv file, for loop breaks and the console displays: There is no temperature data for that date!
+            // Notifies user that CSV data file does not exist and gives direction to enter data
 
+            else
+            {
                 Console.Clear();
-                
-                Console.WriteLine("There is no temperature data for that date!");
-                
+
+                Console.WriteLine(" *********************** Temperature Experiment Data Search ***********************");
+
                 Console.WriteLine("");
-                
+
+                Console.WriteLine("  Temperature Experiment data file does not exist. ");
+
                 Console.WriteLine("");
-                
-                Console.WriteLine("Press ENTER to go back");
-                
+
+                Console.WriteLine("  You need to first enter data to create the data file. ");
+
+                Console.WriteLine("");
+
+                Console.WriteLine("  Press ENTER to go back..");
+
                 Console.ReadLine();
 
-                f.Close();
-
-                Console.Clear();
-
                 TemperatureExperimentMainMenu();
+
             }
         }
 
-         public static void TemperatureExperimentDeleteALL()
+        // Delete ALL data section (It deletes CSV data file)
+    public static void TemperatureExperimentDeleteALL()
         {
             Console.Clear();
             
-            Console.WriteLine("*********************** Delete ALL Temperature Experiment Data ***********************");
+            Console.WriteLine(" *********************** Delete ALL Temperature Experiment Data ***********************");
             
             Console.WriteLine("");
             
-            Console.WriteLine("Do you wish to delete ALL data? (Y/N)");
+            Console.WriteLine("  Do you wish to delete ALL data? (Y/N)");
            
             string answer = Console.ReadLine();
 
+            // Above section checks if user wants to delete all input data. If yes, CSV data file gets deleted
+
             string TExpDataFile = Path.GetFullPath(Program._config["TempExpDataFile"]);
+
+            /** If statement first checks if CSV file is present. If it is, then it proceeds with the program.
+            if CSV file is not present then it notifies user that CSV data file is missing  and cannot be deleted **/
 
             if (answer == "Y")
             {
@@ -292,8 +407,12 @@ namespace WaterQualityWithVernier
                         Console.WriteLine(TExpDataFile);
                         
                         Console.Clear();
-                        
-                        Console.WriteLine("File was deleted. Press ENTER to go back to the main menu..");
+
+                        Console.WriteLine(" *********************** Delete ALL Temperature Experiment Data ***********************");
+
+                        Console.WriteLine("");
+
+                        Console.WriteLine("  File was deleted. Press ENTER to go back to the main menu..");
                         
                         Console.ReadLine();
                         
@@ -302,15 +421,21 @@ namespace WaterQualityWithVernier
                         TemperatureExperimentMainMenu();
                     }
 
+                    // Notifies user that data file is missing and cannot be deleted
+
                     else
 
                         Console.Clear();
-                        
-                        Console.WriteLine("File not found");
+
+                        Console.WriteLine(" *********************** Delete ALL Temperature Experiment Data ***********************");
+
+                        Console.WriteLine("");
+
+                        Console.WriteLine("  Temperature Experiment data file was not found.");
                         
                         Console.WriteLine("");
                         
-                        Console.WriteLine("Press ENTER to go back to the main menu..");
+                        Console.WriteLine("  Press ENTER to go back to the main menu..");
                         
                         Console.ReadLine();
                         
@@ -322,8 +447,12 @@ namespace WaterQualityWithVernier
             else if (answer == "N")
             {
                 Console.Clear();
-                
-                Console.WriteLine("Data file was NOT deleted. Please press ENTER to go back to the main menu..");
+
+                Console.WriteLine(" *********************** Delete ALL Temperature Experiment Data ***********************");
+
+                Console.WriteLine("");
+
+                Console.WriteLine("  Data file was NOT deleted. Please press ENTER to go back to the main menu..");
                 
                 Console.ReadLine();
                 

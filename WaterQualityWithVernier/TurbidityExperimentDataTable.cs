@@ -70,15 +70,22 @@ namespace WaterQualityWithVernier
                     return dtData;
                 }
 
+
+                // Notifies user that CSV data file does not exist
+
                 else
                 {
                     Console.Clear();
 
-                    Console.WriteLine("Data file for the Turbidity Experiment does not exist!");
+                    Console.WriteLine(" *********************** Turbidity Experiment Analysis ***********************");
 
                     Console.WriteLine("");
 
-                    Console.WriteLine("Press ENTER to go back to the Main Menu..");
+                    Console.WriteLine("  Data file for the Turbidity Experiment does not exist!");
+
+                    Console.WriteLine("");
+
+                    Console.WriteLine("  Press ENTER to go back to the Main Menu..");
 
                     Console.ReadLine();
 
@@ -88,12 +95,18 @@ namespace WaterQualityWithVernier
                 }
             }
 
+
+            // Turbidity Experiment Data Table Display Section
             public void TurbidityExperimentShowTable(DataTable dtData)
             {
                 Console.Clear();
 
                 if (dtData != null && dtData.Rows.Count > 0)
                 {
+                    Console.WriteLine(" *********************** Turbidity Experiment Analysis ***********************");
+
+                    Console.WriteLine("");
+
                     Console.WriteLine("\n    TURBIDITY EXPERIMENT DATA TABLE");
 
                     Console.WriteLine(" ______________________________________");
@@ -112,7 +125,7 @@ namespace WaterQualityWithVernier
                     {
                         foreach (var item in dr.ItemArray)
                         {
-                            Console.Write(" " + item.ToString() + "             ");
+                            Console.Write(" " + item.ToString() + "         ");
                         }
 
                         Console.WriteLine("\n");
@@ -120,7 +133,7 @@ namespace WaterQualityWithVernier
 
                     Console.WriteLine("");
 
-                    Console.WriteLine("Please press ENTER to go back to the Turbidity Experiment menu..");
+                    Console.WriteLine("  Please press ENTER to go back to the Turbidity Experiment menu..");
 
                     Console.ReadLine();
 

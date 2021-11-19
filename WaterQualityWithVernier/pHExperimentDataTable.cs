@@ -70,15 +70,22 @@ namespace WaterQualityWithVernier
                     return dtData;
                 }
 
+
+                // Notifies user that CSV data file does not exist
+
                 else
                 {
                     Console.Clear();
 
-                    Console.WriteLine("Data file for the pH Experiment does not exist!");
+                    Console.WriteLine(" *********************** pH Experiment Analysis ***********************");
 
                     Console.WriteLine("");
 
-                    Console.WriteLine("Press ENTER to go back to the Main Menu..");
+                    Console.WriteLine("  Data file for the pH Experiment does not exist!");
+
+                    Console.WriteLine("");
+
+                    Console.WriteLine("  Press ENTER to go back to the Main Menu..");
 
                     Console.ReadLine();
 
@@ -88,12 +95,20 @@ namespace WaterQualityWithVernier
                 }
             }
 
+
+            // pH Experiment Data Table Display Section
             public void pHExperimentShowTable(DataTable dtData)
             {
                 Console.Clear();
 
                 if (dtData != null && dtData.Rows.Count > 0)
                 {
+                    Console.Clear();
+                    
+                    Console.WriteLine(" *********************** pH Experiment Analysis ***********************");
+
+                    Console.WriteLine("");
+
                     Console.WriteLine("\n    pH EXPERIMENT DATA TABLE");
 
                     Console.WriteLine(" ______________________________");
@@ -120,7 +135,7 @@ namespace WaterQualityWithVernier
 
                     Console.WriteLine("");
 
-                    Console.WriteLine("Please press ENTER to go back to the pH Experiment menu..");
+                    Console.WriteLine("  Please press ENTER to go back to the pH Experiment menu..");
 
                     Console.ReadLine();
 

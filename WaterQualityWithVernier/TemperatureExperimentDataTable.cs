@@ -70,15 +70,22 @@ namespace WaterQualityWithVernier
                     return dtData;
                 }
 
+
+                // Notifies user that CSV data file does not exist
+
                 else
                 {
                     Console.Clear();
 
-                    Console.WriteLine("Data file for the Temperature Experiment does not exist!");
+                    Console.WriteLine(" *********************** Temperature Experiment Analysis ***********************");
+
+                    Console.WriteLine("");
+
+                    Console.WriteLine("  Data file for the Temperature Experiment does not exist!");
                     
                     Console.WriteLine("");
                     
-                    Console.WriteLine("Press ENTER to go back to the Main Menu..");
+                    Console.WriteLine("  Press ENTER to go back to the Main Menu..");
                     
                     Console.ReadLine();
                     
@@ -88,12 +95,21 @@ namespace WaterQualityWithVernier
                 }
             }
 
+
+            // Temperature Experiment Data Table Display Section
+
             public void TemperatureExperimentShowTable(DataTable dtData)
             {
                 Console.Clear();
 
                 if (dtData != null && dtData.Rows.Count > 0)
                 {
+                    Console.Clear();
+                    
+                    Console.WriteLine(" *********************** Temperature Experiment Analysis ***********************");
+
+                    Console.WriteLine("");
+
                     Console.WriteLine("\n    TEMPERATURE EXPERIMENT DATA TABLE");
                     
                     Console.WriteLine(" _______________________________________");
@@ -120,7 +136,7 @@ namespace WaterQualityWithVernier
 
                     Console.WriteLine("");
 
-                    Console.WriteLine("Please press ENTER to go back to the Temperature Experiment menu..");
+                    Console.WriteLine("  Please press ENTER to go back to the Temperature Experiment menu..");
                     
                     Console.ReadLine();
                     

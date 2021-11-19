@@ -16,7 +16,7 @@ namespace WaterQualityWithVernier
         {
             Console.Clear();
 
-            Console.WriteLine("*********************** Turbidity Experiment ***********************");
+            Console.WriteLine(" *********************** Turbidity Experiment ***********************");
 
             Console.WriteLine("");
 
@@ -54,32 +54,50 @@ namespace WaterQualityWithVernier
         }
 
 
-        // Temperature Data Entry Section
+        // Turbidity Data Entry Section
         public static void TurbidityExperimentDataEntry()
         {
             Console.Clear();
 
-            Console.WriteLine("*********************** Turbidity Experiment Data Entry ***********************");
+            Console.WriteLine(" *********************** Turbidity Experiment Data Entry ***********************");
+
+            Console.WriteLine("");
+
+            Console.WriteLine("  Turbidity is caused by particles suspended or dissolved in water that scatter");
+
+            Console.WriteLine("  light making the water appear cloudy or murky. In a Koi fish pond, high");
+
+            Console.WriteLine("  turbidity of water usually happens during warm summer months when green algea");
+
+            Console.WriteLine("  experience most growth. We can correctly assume that the rate by which water");
+
+            Console.WriteLine("  turbidity changes can directly be used to measure growth of green algea in ");
+
+            Console.WriteLine("  in your fish pond.");
+
+            Console.WriteLine("");
+
+            Console.WriteLine("  High turbidity because of algea affects Koi fish because when large amounts");
+
+            Console.WriteLine("  of algea die, oxygen is used up to decompose them, leaving less oxygen for ");
+
+            Console.WriteLine("  the fish. Large amounts of suspended soils or clay may clog the gills and kill");
+
+            Console.WriteLine("  them directly.");
+
+            Console.WriteLine("");
+
+            Console.WriteLine("  In this experiment you will collect temperature data on your pond water using ");
+
+            Console.WriteLine("  Vernier turbidity probe, Texas Instruments Graphing Calculator with attached ");
+
+            Console.WriteLine("  CBL2 Calculator-Based Laboratory.");
 
             Console.WriteLine("");
 
             Console.WriteLine("");
 
-            Console.WriteLine("");
-
-            Console.WriteLine("");
-
-            Console.WriteLine("");
-
-            Console.WriteLine("");
-
-            Console.WriteLine("");
-
-            Console.WriteLine("");
-
-            Console.WriteLine("");
-
-            Console.WriteLine(" Please enter the date of the experiment (Example: 06/01/2017):");
+            Console.WriteLine("  Please enter date of experiment (Example: 06/01/2017):");
 
             Console.WriteLine("");
 
@@ -87,7 +105,11 @@ namespace WaterQualityWithVernier
 
             Console.Clear();
 
-            Console.WriteLine(" Please enter turbidity recorded (in NTU):");
+            Console.WriteLine(" *********************** Turbidity Experiment Data Entry ***********************");
+
+            Console.WriteLine("");
+
+            Console.WriteLine("  Please enter turbidity observed (in NTU):");
 
             Console.WriteLine("");
 
@@ -96,47 +118,42 @@ namespace WaterQualityWithVernier
             Console.Clear();
 
 
-            // Stores date and temperature data in CSV file following [date, temperature] format 
-
             List<string> dateAndTurb = new List<string>();
 
             List<string> dateAndTurbInit = new List<string>();
 
             string path = Path.GetFullPath(Program._config["TurbExpDataFile"]);
 
+
+            /** If statement checks if CSV data file is present. If it is present, the program continues..
+             If CSV data file is not present, it initializes or creates an empty CSV data file **/
+
             if (File.Exists(path))
             {
                 dateAndTurb.Add($"{turbExpDate},{turbExpTurb}");
 
+                
+                // Stores date and turbidity data in CSV file following [date, turbidity] format 
+                
                 File.AppendAllLines(Program._config["TurbExpDataFile"], dateAndTurb);
 
                 int turbExpTurbInt = Int32.Parse(turbExpTurb);
 
+                Console.Clear();
 
-                // Notifies user if water temperature that was entered is safe to feed their Koi fish
+                Console.WriteLine(" *********************** Turbidity Experiment Data Entry ***********************");
 
-                if (turbExpTurbInt < 50)
-                {
-                    Console.WriteLine("This turbidity is TOO HIGH for your pond! Press ENTER to continue..");
+                Console.WriteLine("");
 
-                    Console.ReadLine();
+                Console.WriteLine("  Turbidity data was entered. Please press ENTER to go back to the experiment menu..");
 
-                    Console.Clear();
+                Console.ReadLine();
 
-                    TurbidityExperiment.TurbidityExperimentMainMenu();
-                }
-
-                else if (turbExpTurbInt >= 50)
-                {
-                    Console.WriteLine("This turbidity is PERFECT for your pond! Press ENTER to continue..");
-
-                    Console.ReadLine();
-
-                    Console.Clear();
-
-                    TurbidityExperiment.TurbidityExperimentMainMenu();
-                }
+                TurbidityExperimentMainMenu();
             }
+             
+           
+            //Initializes/creates an empty CSV data file
 
             else
             {
@@ -144,7 +161,13 @@ namespace WaterQualityWithVernier
 
                 File.AppendAllLines(Program._config["TurbExpDataFile"], dateAndTurbInit);
 
-                Console.WriteLine("Initialized File. Please press ENTER to go back and re-enter data..");
+                Console.Clear();
+
+                Console.WriteLine(" *********************** Turbidity Experiment Data Entry ***********************");
+
+                Console.WriteLine("");
+
+                Console.WriteLine("  Initialized File. Please press ENTER to go back and re-enter data..");
 
                 Console.ReadLine();
 
@@ -156,132 +179,156 @@ namespace WaterQualityWithVernier
         //Turbidity Experiment Data Search Section
         public static void TurbidityExperimentDataSearch()
         {
-            using (FileStream f = File.Open(Program._config["TurbExpDataFile"], FileMode.Open, FileAccess.ReadWrite, FileShare.Inheritable)) // Here I need to enter if statement that tests for presence of CSV data file...
+            string path = Program._config["TurbExpDataFile"];
+
+
+            //If statement checks if CSV data file exists. If it does exist, it then proceeds with searching the file
+
+            // If CSV file does not exist, it notifies user and gives direction to enter data
+
+            if (File.Exists(path))
             {
-                Console.Clear();
-
-                Console.WriteLine("*********************** Turbidity Experiment Data Search ***********************");
-
-                Console.WriteLine("");
-
-                Console.WriteLine("What date would you like to search turbidity data for? (Example: 06/01/2017)");
-
-                Console.WriteLine("");
-
-                string turbExpCSV = Program._config["TurbExpDataFile"];
-
-                string turbExpDate = Console.ReadLine();
-
-                Console.Clear();
-
-                char csvSeparator = ',';
-
-
-                // 'For Loop' that searches each entry in TurbExpData.csv file. If user entry matches with data entry in csv file the console displays: Turbidity on <entered date> date was ...
-                // this loop also has an additional feature which is to display if water turbidity is at optimal level for your pond.
-
-                using (var reader = new StreamReader(f))
+                using (FileStream f = File.Open(Program._config["TurbExpDataFile"], FileMode.Open, FileAccess.ReadWrite, FileShare.Inheritable)) 
                 {
-                    while (!reader.EndOfStream)
+                    Console.Clear();
+
+                    Console.WriteLine(" *********************** Turbidity Experiment Data Search ***********************");
+
+                    Console.WriteLine("");
+
+                    Console.WriteLine("  Enter date that you would like to search: (Example: 06/01/2017)");
+
+                    Console.WriteLine("");
+
+                    string turbExpCSV = Program._config["TurbExpDataFile"];
+
+                    string turbExpDate = Console.ReadLine();
+
+                    Console.Clear();
+
+                    char csvSeparator = ',';
+
+
+                    // 'While loop' that searches TurbExpData.csv file for user input
+
+                    using (var reader = new StreamReader(f))
                     {
-                        string line = reader.ReadLine();
-
-                        foreach (string value in line.Replace("\"", "").Split('\r', '\n', csvSeparator))
+                        while (!reader.EndOfStream)
                         {
-                            if (value.Trim() == turbExpDate.Trim() && (Int32.Parse(line.Split(',')[1]) < 50)) // case sensitive
+                            string line = reader.ReadLine();
+
+                            foreach (string value in line.Replace("\"", "").Split('\r', '\n', csvSeparator))
                             {
-                                Console.Clear();
+                                if (value.Trim() == turbExpDate.Trim()) // case sensitive
+                                {
+                                    Console.Clear();
 
-                                Console.WriteLine("Turbidity on " + value + " was " + line.Split(',')[1] + " NTU.");
+                                    Console.WriteLine(" *********************** Turbidity Experiment Data Search ***********************");
 
-                                Console.WriteLine("");
+                                    Console.WriteLine("");
 
-                                Console.WriteLine("This turbidity is TOO HIGH for your pond!");
+                                    Console.WriteLine("  Turbidity on " + value + " was " + line.Split(',')[1] + " NTU.");
 
-                                Console.WriteLine("");
+                                    Console.WriteLine("");
 
-                                Console.WriteLine("Press ENTER to go back..");
+                                    Console.WriteLine("  Press ENTER to go back..");
 
-                                Console.ReadLine();
+                                    Console.ReadLine();
 
-                                f.Close();
+                                    f.Close();
 
-                                Console.Clear();
+                                    Console.Clear();
 
-                                TurbidityExperimentMainMenu();
+                                    TurbidityExperimentMainMenu();
 
-                                break;
-                            }
+                                    break;
+                                }
 
-                            if (value.Trim() == turbExpDate.Trim() && (Int32.Parse(line.Split(',')[1]) >= 50)) // case sensitive
-                            {
-                                Console.Clear();
-
-                                Console.WriteLine("Turbidity on " + value + " was " + line.Split(',')[1] + " NTU.");
-
-                                Console.WriteLine("");
-
-                                Console.WriteLine("This turbidity is PERFECT for your Koi pond!");
-
-                                Console.WriteLine("");
-
-                                Console.WriteLine("Press ENTER to go back.");
-
-                                Console.ReadLine();
-
-                                f.Close();
-
-                                Console.Clear();
-
-                                TurbidityExperimentMainMenu();
-
-                                break;
-                            }
-
-                            else if (value.Trim() != turbExpDate.Trim())
-                            {
-                                break;
+                                else if (value.Trim() != turbExpDate.Trim())
+                                {
+                                    break;
+                                }
                             }
                         }
                     }
+
+
+                    // If user entry does not match with data entry in csv file, for loop breaks and the console displays: There is no turbidity data for that date!
+
+                    Console.Clear();
+
+                    Console.WriteLine(" *********************** Turbidity Experiment Data Search ***********************");
+
+                    Console.WriteLine("");
+
+                    Console.WriteLine("  There is no turbidity data for that date!");
+
+                    Console.WriteLine("");
+
+                    Console.WriteLine("");
+
+                    Console.WriteLine("  Press ENTER to go back");
+
+                    Console.ReadLine();
+
+                    f.Close();
+
+                    Console.Clear();
+
+                    TurbidityExperimentMainMenu();
                 }
+            }
 
 
-                // If user entry does not match with data entry in csv file, for loop breaks and the console displays: There is no turbidity data for that date!
+            // Notifies user that CSV data file does not exist and gives direction to enter data
 
+            else
+            {
                 Console.Clear();
 
-                Console.WriteLine("There is no turbidity data for that date!");
+                Console.WriteLine(" *********************** Turbidity Experiment Data Search ***********************");
 
                 Console.WriteLine("");
 
+                Console.WriteLine("  Turbidity Experiment data file does not exist. ");
+
                 Console.WriteLine("");
 
-                Console.WriteLine("Press ENTER to go back");
+                Console.WriteLine("  You need to first enter data to create the data file. ");
+
+                Console.WriteLine("");
+
+                Console.WriteLine("  Press ENTER to go back..");
 
                 Console.ReadLine();
 
-                f.Close();
-
-                Console.Clear();
-
                 TurbidityExperimentMainMenu();
+
             }
         }
+
+
+        // Delete ALL data section (It deletes CSV data file)
 
         public static void TurbidityExperimentDeleteALL()
         {
             Console.Clear();
 
-            Console.WriteLine("*********************** Delete ALL Turbidity Experiment Data ***********************");
+            Console.WriteLine(" *********************** Delete ALL Turbidity Experiment Data ***********************");
 
             Console.WriteLine("");
 
-            Console.WriteLine("Do you wish to delete ALL data? (Y/N)");
+            Console.WriteLine("  Do you wish to delete ALL data? (Y/N)");
 
             string answer = Console.ReadLine();
 
+            // Above section checks if user wants to delete all input date. If yes, CSV data file gets deleted
+
             string turbExpDataFile = Path.GetFullPath(Program._config["TurbExpDataFile"]);
+
+
+            /** If statement first checks if CSV file is present. If it is, then it proceeds with the program.
+             If CSV file is not present then it notifies user that CSV data file is missing and cannot be deleted **/
 
             if (answer == "Y")
             {
@@ -293,7 +340,11 @@ namespace WaterQualityWithVernier
 
                     Console.Clear();
 
-                    Console.WriteLine("File was deleted. Press ENTER to go back to the main menu..");
+                    Console.WriteLine(" *********************** Delete ALL Turbidity Experiment Data ***********************");
+
+                    Console.WriteLine("");
+
+                    Console.WriteLine("  File was deleted. Press ENTER to go back to the main menu..");
 
                     Console.ReadLine();
 
@@ -302,15 +353,22 @@ namespace WaterQualityWithVernier
                     TurbidityExperimentMainMenu();
                 }
 
+
+                // Notifies user that data file is missing and cannot be deleted
+
                 else
 
                 Console.Clear();
 
-                Console.WriteLine("File not found..");
+                Console.WriteLine(" *********************** Delete ALL Turbidity Experiment Data ***********************");
 
                 Console.WriteLine("");
 
-                Console.WriteLine("Press ENTER to go back to the main menu..");
+                Console.WriteLine("  Turbidity Experiment data file was not found.");
+
+                Console.WriteLine("");
+
+                Console.WriteLine("  Press ENTER to go back to the main menu..");
 
                 Console.ReadLine();
 
@@ -323,7 +381,11 @@ namespace WaterQualityWithVernier
             {
                 Console.Clear();
 
-                Console.WriteLine("Data file was NOT deleted. Please press ENTER to go back to the main menu..");
+                Console.WriteLine(" *********************** Delete ALL Turbidity Experiment Data ***********************");
+
+                Console.WriteLine("");
+
+                Console.WriteLine("  Data file was NOT deleted. Please press ENTER to go back to the main menu..");
 
                 Console.ReadLine();
 
