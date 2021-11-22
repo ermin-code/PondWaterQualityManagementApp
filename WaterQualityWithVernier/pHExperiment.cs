@@ -203,9 +203,11 @@ namespace WaterQualityWithVernier
             
             else
             {
+
                 dateAndpHInit.Add("Date, pH");
 
                 File.AppendAllLines(Program._config["pHExpDataFile"], dateAndpHInit);
+
 
                 Console.Clear();
 

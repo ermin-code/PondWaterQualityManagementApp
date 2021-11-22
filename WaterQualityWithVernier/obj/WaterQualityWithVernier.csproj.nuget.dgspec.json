@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[27.1.1, )"
             },
+            "IKVM": {
+              "target": "Package",
+              "version": "[8.1.5717, )"
+            },
             "LumenWorks.Framework.IO": {
               "target": "Package",
               "version": "[3.8.0, )"
@@ -79,6 +83,10 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [

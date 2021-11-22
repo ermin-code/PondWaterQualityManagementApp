@@ -10,7 +10,7 @@ using Microsoft.Extensions;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.Json;
 using Microsoft.Extensions.DependencyInjection;
-
+using System.Reflection;
 
 namespace WaterQualityWithVernier
 {
@@ -23,15 +23,16 @@ namespace WaterQualityWithVernier
         {
 
             // Initializing AppSettings.json to target a specific file path
-           
-            _config = new ConfigurationBuilder()
+            
+            Directory.SetCurrentDirectory(AppDomain.CurrentDomain.BaseDirectory);
+
+             _config = new ConfigurationBuilder()
+
+                .SetBasePath(Path.GetDirectoryName(Assembly.GetEntryAssembly().Location))
                 
-                .SetBasePath(Directory.GetCurrentDirectory())
-                
-                .AddJsonFile("D:/My Documents/Code Louisville/september2021/WaterQualityWithVernier/WaterQualityWithVernier/AppSettings.json")
+                .AddJsonFile(@"AppSettings.json")
                 
                 .Build();
-            
 
             // Changes font color in the console to green
 

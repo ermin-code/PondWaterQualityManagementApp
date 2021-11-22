@@ -45,3 +45,277 @@ D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQuali
 D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\Microsoft.Net.Http.Headers.dll
 D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\ConsoleTables.dll
 D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.csproj.CopyComplete
+C:\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\WaterQualityWithVernier.exe
+C:\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\WaterQualityWithVernier.deps.json
+C:\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\WaterQualityWithVernier.runtimeconfig.json
+C:\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\WaterQualityWithVernier.runtimeconfig.dev.json
+C:\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\WaterQualityWithVernier.dll
+C:\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\ref\WaterQualityWithVernier.dll
+C:\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\WaterQualityWithVernier.pdb
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.AWT.WinForms.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.Beans.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.Charsets.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.Cldrdata.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.Corba.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.Core.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.Jdbc.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.Localedata.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.Management.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.Media.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.Misc.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.Naming.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.Nashorn.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.Remoting.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.Security.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.SwingAWT.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.Text.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.Tools.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.Util.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.XML.API.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.XML.Bind.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.XML.Crypto.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.XML.Parse.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.XML.Transform.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.XML.WebServices.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.OpenJDK.XML.XPath.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.Runtime.JNI.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\IKVM.Runtime.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Debug\net5.0\WaterQualityWithVernier.exe
+D:\Debug\net5.0\WaterQualityWithVernier.deps.json
+D:\Debug\net5.0\WaterQualityWithVernier.runtimeconfig.json
+D:\Debug\net5.0\WaterQualityWithVernier.runtimeconfig.dev.json
+D:\Debug\net5.0\WaterQualityWithVernier.dll
+D:\Debug\net5.0\ref\WaterQualityWithVernier.dll
+D:\Debug\net5.0\WaterQualityWithVernier.pdb
+D:\Debug\net5.0\AppSettings.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\WaterQualityWithVernier.exe
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\AppSettings.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\WaterQualityWithVernier.deps.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\WaterQualityWithVernier.runtimeconfig.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\WaterQualityWithVernier.runtimeconfig.dev.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\WaterQualityWithVernier.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\ref\WaterQualityWithVernier.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\WaterQualityWithVernier.pdb
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\ConsoleTables.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\CsvHelper.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.AWT.WinForms.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.Beans.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.Charsets.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.Cldrdata.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.Corba.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.Core.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.Jdbc.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.Localedata.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.Management.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.Media.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.Misc.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.Naming.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.Nashorn.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.Remoting.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.Security.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.SwingAWT.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.Text.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.Tools.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.Util.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.XML.API.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.XML.Bind.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.XML.Crypto.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.XML.Parse.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.XML.Transform.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.XML.WebServices.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.OpenJDK.XML.XPath.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.Runtime.JNI.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\IKVM.Runtime.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\LumenWorks.Framework.IO.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\CsvReader.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.AspNetCore.Hosting.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.AspNetCore.Http.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.AspNetCore.Http.Extensions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.AspNetCore.WebUtilities.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.Extensions.Logging.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.Extensions.ObjectPool.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\Microsoft.Net.Http.Headers.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\bin\Debug\net5.0\AppSettings.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\Code Louisville\Debug\net5.0\WaterQualityWithVernier.exe
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\Code Louisville\Debug\net5.0\AppSettings.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\Code Louisville\Debug\net5.0\WaterQualityWithVernier.deps.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\Code Louisville\Debug\net5.0\WaterQualityWithVernier.runtimeconfig.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\Code Louisville\Debug\net5.0\WaterQualityWithVernier.runtimeconfig.dev.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\Code Louisville\Debug\net5.0\WaterQualityWithVernier.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\Code Louisville\Debug\net5.0\ref\WaterQualityWithVernier.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\Code Louisville\Debug\net5.0\WaterQualityWithVernier.pdb
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQualityWithVernier.exe
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\AppSettings.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQualityWithVernier.deps.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQualityWithVernier.runtimeconfig.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQualityWithVernier.runtimeconfig.dev.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQualityWithVernier.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\ref\WaterQualityWithVernier.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQualityWithVernier.pdb
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\ConsoleTables.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\CsvHelper.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.AWT.WinForms.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.Beans.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.Charsets.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.Cldrdata.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.Corba.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.Core.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.Jdbc.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.Localedata.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.Management.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.Media.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.Misc.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.Naming.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.Nashorn.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.Remoting.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.Security.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.SwingAWT.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.Text.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.Tools.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.Util.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.XML.API.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.XML.Bind.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.XML.Crypto.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.XML.Parse.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.XML.Transform.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.XML.WebServices.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.OpenJDK.XML.XPath.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.Runtime.JNI.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\IKVM.Runtime.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\LumenWorks.Framework.IO.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\CsvReader.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.AspNetCore.Hosting.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.AspNetCore.Http.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.AspNetCore.Http.Extensions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.AspNetCore.WebUtilities.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.Extensions.Logging.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.Extensions.ObjectPool.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\Microsoft.Net.Http.Headers.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\WaterQualityWithVernier.exe
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\AppSettings.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\WaterQualityWithVernier.deps.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\WaterQualityWithVernier.runtimeconfig.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\WaterQualityWithVernier.runtimeconfig.dev.json
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\WaterQualityWithVernier.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\ref\WaterQualityWithVernier.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\WaterQualityWithVernier.pdb
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\ConsoleTables.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\CsvHelper.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.AWT.WinForms.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.Beans.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.Charsets.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.Cldrdata.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.Corba.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.Core.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.Jdbc.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.Localedata.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.Management.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.Media.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.Misc.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.Naming.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.Nashorn.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.Remoting.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.Security.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.SwingAWT.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.Text.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.Tools.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.Util.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.XML.API.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.XML.Bind.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.XML.Crypto.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.XML.Parse.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.XML.Transform.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.XML.WebServices.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.OpenJDK.XML.XPath.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.Runtime.JNI.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\IKVM.Runtime.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\LumenWorks.Framework.IO.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\CsvReader.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.AspNetCore.Hosting.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.AspNetCore.Http.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.AspNetCore.Http.Extensions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.AspNetCore.WebUtilities.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.Extensions.Logging.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.Extensions.ObjectPool.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\Microsoft.Net.Http.Headers.dll
+D:\My Documents\Code Louisville\september2021\WaterQualityWithVernier\WaterQualityWithVernier\Code Louisville\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Code Louisville\Debug\net5.0\WaterQualityWithVernier.exe
+D:\Code Louisville\Debug\net5.0\AppSettings.json
+D:\Code Louisville\Debug\net5.0\WaterQualityWithVernier.deps.json
+D:\Code Louisville\Debug\net5.0\WaterQualityWithVernier.runtimeconfig.json
+D:\Code Louisville\Debug\net5.0\WaterQualityWithVernier.runtimeconfig.dev.json
+D:\Code Louisville\Debug\net5.0\WaterQualityWithVernier.dll
+D:\Code Louisville\Debug\net5.0\ref\WaterQualityWithVernier.dll
+D:\Code Louisville\Debug\net5.0\WaterQualityWithVernier.pdb
+D:\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQualityWithVernier.exe
+D:\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\AppSettings.json
+D:\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQualityWithVernier.deps.json
+D:\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQualityWithVernier.runtimeconfig.json
+D:\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQualityWithVernier.runtimeconfig.dev.json
+D:\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQualityWithVernier.dll
+D:\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\ref\WaterQualityWithVernier.dll
+D:\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQualityWithVernier.pdb
