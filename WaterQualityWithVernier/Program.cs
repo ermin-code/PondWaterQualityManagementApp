@@ -31,9 +31,11 @@ namespace WaterQualityWithVernier
                 .SetBasePath(Path.GetDirectoryName(Assembly.GetEntryAssembly().Location))
                 
                 .AddJsonFile(@"AppSettings.json")
-                
+
                 .Build();
 
+            Directory.CreateDirectory(_config["SavedDataDirectory"]);
+            
             // Changes font color in the console to green
 
             Console.ForegroundColor = ConsoleColor.Green;
