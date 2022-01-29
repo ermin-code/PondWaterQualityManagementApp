@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My Documents\\Code Louisville\\september2021\\WaterQualityWithVernier\\WaterQualityWithVernier\\WaterQualityWithVernier.csproj": {}
+    "C:\\Users\\ermin\\Documents\\Code Louisville\\august2021\\WaterQualityWithVernier\\WaterQualityWithVernier\\WaterQualityWithVernier.csproj": {}
   },
   "projects": {
-    "D:\\My Documents\\Code Louisville\\september2021\\WaterQualityWithVernier\\WaterQualityWithVernier\\WaterQualityWithVernier.csproj": {
+    "C:\\Users\\ermin\\Documents\\Code Louisville\\august2021\\WaterQualityWithVernier\\WaterQualityWithVernier\\WaterQualityWithVernier.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Documents\\Code Louisville\\september2021\\WaterQualityWithVernier\\WaterQualityWithVernier\\WaterQualityWithVernier.csproj",
+        "projectUniqueName": "C:\\Users\\ermin\\Documents\\Code Louisville\\august2021\\WaterQualityWithVernier\\WaterQualityWithVernier\\WaterQualityWithVernier.csproj",
         "projectName": "WaterQualityWithVernier",
-        "projectPath": "D:\\My Documents\\Code Louisville\\september2021\\WaterQualityWithVernier\\WaterQualityWithVernier\\WaterQualityWithVernier.csproj",
-        "packagesPath": "C:\\Users\\Ermin - Business\\.nuget\\packages\\",
-        "outputPath": "D:\\My Documents\\Code Louisville\\september2021\\WaterQualityWithVernier\\WaterQualityWithVernier\\obj\\",
+        "projectPath": "C:\\Users\\ermin\\Documents\\Code Louisville\\august2021\\WaterQualityWithVernier\\WaterQualityWithVernier\\WaterQualityWithVernier.csproj",
+        "packagesPath": "C:\\Users\\ermin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ermin\\Documents\\Code Louisville\\august2021\\WaterQualityWithVernier\\WaterQualityWithVernier\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ermin - Business\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ermin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -104,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -319,3 +319,21 @@ D:\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQua
 D:\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQualityWithVernier.dll
 D:\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\ref\WaterQualityWithVernier.dll
 D:\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQualityWithVernier.pdb
+C:\Users\ermin\Documents\Code Louisville\august2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.dll
+C:\Users\ermin\Documents\Code Louisville\august2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\ref\WaterQualityWithVernier.dll
+C:\Users\ermin\Documents\Code Louisville\august2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.pdb
+C:\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQualityWithVernier.exe
+C:\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\AppSettings.json
+C:\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQualityWithVernier.deps.json
+C:\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQualityWithVernier.runtimeconfig.json
+C:\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQualityWithVernier.runtimeconfig.dev.json
+C:\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQualityWithVernier.dll
+C:\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\ref\WaterQualityWithVernier.dll
+C:\Code Louisville\September 2021\Ermin Vila\Final Project\Debug\net5.0\WaterQualityWithVernier.pdb
+C:\Users\ermin\Documents\Code Louisville\august2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.csproj.AssemblyReference.cache
+C:\Users\ermin\Documents\Code Louisville\august2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ermin\Documents\Code Louisville\august2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.AssemblyInfoInputs.cache
+C:\Users\ermin\Documents\Code Louisville\august2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.AssemblyInfo.cs
+C:\Users\ermin\Documents\Code Louisville\august2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.csproj.CoreCompileInputs.cache
+C:\Users\ermin\Documents\Code Louisville\august2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.csproj.CopyComplete
+C:\Users\ermin\Documents\Code Louisville\august2021\WaterQualityWithVernier\WaterQualityWithVernier\obj\Debug\net5.0\WaterQualityWithVernier.genruntimeconfig.cache
