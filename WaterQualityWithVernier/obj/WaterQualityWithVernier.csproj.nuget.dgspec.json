@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ermin\\Documents\\Code Louisville\\august2021\\WaterQualityWithVernier\\WaterQualityWithVernier\\WaterQualityWithVernier.csproj": {}
+    "D:\\Users\\ermin\\Documents\\Code Louisville Projects\\WaterQualityWithVernier\\WaterQualityWithVernier\\WaterQualityWithVernier.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ermin\\Documents\\Code Louisville\\august2021\\WaterQualityWithVernier\\WaterQualityWithVernier\\WaterQualityWithVernier.csproj": {
+    "D:\\Users\\ermin\\Documents\\Code Louisville Projects\\WaterQualityWithVernier\\WaterQualityWithVernier\\WaterQualityWithVernier.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ermin\\Documents\\Code Louisville\\august2021\\WaterQualityWithVernier\\WaterQualityWithVernier\\WaterQualityWithVernier.csproj",
+        "projectUniqueName": "D:\\Users\\ermin\\Documents\\Code Louisville Projects\\WaterQualityWithVernier\\WaterQualityWithVernier\\WaterQualityWithVernier.csproj",
         "projectName": "WaterQualityWithVernier",
-        "projectPath": "C:\\Users\\ermin\\Documents\\Code Louisville\\august2021\\WaterQualityWithVernier\\WaterQualityWithVernier\\WaterQualityWithVernier.csproj",
+        "projectPath": "D:\\Users\\ermin\\Documents\\Code Louisville Projects\\WaterQualityWithVernier\\WaterQualityWithVernier\\WaterQualityWithVernier.csproj",
         "packagesPath": "C:\\Users\\ermin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ermin\\Documents\\Code Louisville\\august2021\\WaterQualityWithVernier\\WaterQualityWithVernier\\obj\\",
+        "outputPath": "D:\\Users\\ermin\\Documents\\Code Louisville Projects\\WaterQualityWithVernier\\WaterQualityWithVernier\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\ermin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -95,7 +100,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -104,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

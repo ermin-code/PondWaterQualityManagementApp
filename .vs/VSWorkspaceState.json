@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WaterQualityWithVernier"
   ],
+  "SelectedNode": "\\WaterQualityWithVernier\\WaterQualityWithVernier.csproj",
   "PreviewInSolutionExplorer": false
 }
